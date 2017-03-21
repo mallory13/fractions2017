@@ -1,0 +1,32 @@
+@charset "utf-8";
+	/*.st0*/
+
+footer {
+    margin-bottom: 0%;
+    margin-top: 2%;
+    height: auto;
+    padding: 1%;
+    margin: 0 auto;
+    background-color: #82BC00;
+    text-align: center;
+    position: relative;
+}
+footer a {
+    color: #fefefe;
+}
+footer a:hover {
+    color: #fff;
+}
+small {
+    clear: both;
+    background-color: #3B3B3B;
+    text-align: center;
+    height: 20%;
+    position: fixed;
+    width:100%;
+    left:-2%;
+    bottom:0px;
+    color: oldlace;
+    padding-left: 5%;
+    font-size: 2em;
+}

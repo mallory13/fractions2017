@@ -1,0 +1,523 @@
+@charset "utf-8";
+/*.st0*/
+
+a {
+    text-decoration: none;
+}
+.hideDesktop {
+    visibility: hidden;
+}
+/*body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+#pathwayContainer{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+  }*/
+/*#unitTitle{
+  flex-grow: 1;
+  flex-basis: 20vw;
+}*/
+/*#unitMain{
+  flex-grow: 3;
+  flex-basis: 20vw;
+  flex-direction: column;
+}*/
+/*#compTitle{
+  flex-grow: 1;
+  flex-basis: 20vw;
+}*/
+/*#compMain{
+  flex-grow: 3;
+  flex-basis: 20vw;
+  flex-direction: column;
+}*/
+/*#opTitle{
+  flex-grow: 1;
+  flex-basis: 20vw;
+}*/
+/*#opMain{
+  flex-grow: 3;
+  flex-basis: 20vw;
+  flex-direction: column;
+}*/
+/*.parBlue .parGreen .parOrange{
+    width: 90px;
+    height: 50px;
+    -webkit-transform: skew(-20deg);
+       -moz-transform: skew(-20deg);
+         -o-transform: skew(-20deg);
+    background: #EDEDED;
+  }*/
+
+.parBlue:hover {
+    border: 4px solid #00DCFE;
+}
+.parGreen:hover {
+    border: 4px solid #05AB12;
+}
+/*.parOrange{
+border: 4px solid #FF871F;
+}*/
+/*small blue squares*/
+
+.parBlue {
+    border: 2px solid #00C1DE;
+    width: 10%;
+    height: 5%;
+    -webkit-transform: skew(-30deg);
+    -moz-transform: skew(-30deg);
+    -o-transform: skew(-30deg);
+    background: #F6F7F6;
+}
+/*small green squares*/
+
+.parGreen {
+    border: 2px solid #82BC00;
+    width: 10%;
+    height: 5%;
+    -webkit-transform: skew(-30deg);
+    -moz-transform: skew(-30deg);
+    -o-transform: skew(-30deg);
+    background: #F6F7F6;
+}
+/*small orange squares*/
+
+.parOrange {
+    border: 2px solid #FF6B00;
+    width: 10%;
+    height: 5%;
+    -webkit-transform: skew(-30deg);
+    -moz-transform: skew(-30deg);
+    -o-transform: skew(-30deg);
+    background: #F6F7F6;
+}
+/*large orange rectangle*/
+
+.orangeRectangle {
+    width: 40%;
+    height: 120%;
+    background: #FF6B00;
+    /*padding-top: -15%;*/
+    
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.75em;
+}
+/*large blue rectangle*/
+
+.blueRectangle {
+    width: 40%;
+    height: 110%;
+    background: #00C1DE;
+    /*padding-top: -15%;*/
+    
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.75em;
+}
+/*large green rectangle*/
+
+.greenRectangle {
+    width: 40%;
+    height: 100%;
+    background: #82BC00;
+    /*padding-top: -15%;*/
+    
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.75em;
+}
+/* NEW ONE */
+
+#pathwayContainer {
+    width: 98%;
+}
+.newPathway {
+    max-width: 1300px;
+    height: 740px;
+    margin-bottom: 100px;
+    margin: 0 auto;
+    font-size: 0;
+    padding: 0 16px;
+}
+.newPathway h4 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 5px solid #fff;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 8px 0;
+    margin: 0;
+    height: 60px;
+}
+.diamond {
+    width: 180px;
+    height: 140px;
+    -webkit-transform: skew(-25deg) rotate(-15deg);
+    -moz-transform: skew(-25deg) rotate(-15deg);
+    -o-transform: skew(-25deg) rotate(-15deg);
+    background: #fff;
+    position: absolute;
+    z-index: 300;
+}
+.diamond h5 {
+    bottom: -5px;
+    left: 5px;
+    position: absolute;
+    text-transform: uppercase;
+}
+.diamond a span {
+    color: #000;
+    -webkit-transform: skew(25deg) rotate(15deg);
+    -moz-transform: skew(25deg) rotate(15deg);
+    -o-transform: skew(25deg) rotate(15deg);
+    position: absolute;
+    top: 26px;
+    left: 16px;
+    text-align: center;
+    width: 140px;
+    font-size: 12px;
+}
+
+.unitFractions,
+.comparingFractions,
+.operationsWithFractions {
+    width: 33.33%;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+.unitFractions {
+    background-color: #8fd36a;
+    height: 580px;
+    margin-top: 110px;
+}
+.comparingFractions {
+    background-color: #4cd0e7;
+    height: 635px;
+    margin-top: 55px;
+}
+.operationsWithFractions {
+    background-color: #ff8540;
+    height: 690px;
+}
+.unitFractions .diamond {
+    border: 3px solid #68c73d;
+}
+.comparingFractions .diamond {
+    border: 3px solid #00c3e0;
+}
+.operationsWithFractions .diamond {
+    border: 3px solid #ff5700;
+}
+.unitFractions .diamond:hover {
+    border: 6px solid #68c73d;
+}
+.comparingFractions .diamond:hover {
+    border: 6px solid #00c3e0;
+}
+.operationsWithFractions .diamond:hover {
+    border: 6px solid #ff5700;
+}
+.unitFractions h4 {
+    background-color: #68c73d;
+}
+.comparingFractions h4 {
+    background-color: #00c3e0;
+}
+.operationsWithFractions h4 {
+    background-color: #ff5700;
+}
+.unitFractions h5 {
+    color: #68c73d;
+}
+.comparingFractions h5 {
+    color: #00c3e0;
+}
+.operationsWithFractions h5 {
+    color: #ff5700;
+}
+/* DIAMONDS POSITIONS */
+
+#unitA {
+    top: 337px;
+    left: -19px;
+}
+#unitB {
+    top: 181px;
+    left: 12px;
+}
+#unitC {
+    top: 24px;
+    left: 43px;
+}
+#unitD {
+    top: 285px;
+    left: 196px;
+}
+#unitE {
+    top: 129px;
+    left: 227px;
+}
+#unitF {
+    top: -26px;
+    left: 259px;
+}
+#compA {
+    top: 287px;
+    left: -7px;
+}
+#compB {
+    top: 132px;
+    left: 24px;
+}
+#compC {
+    top: 391px;
+    left: 175px;
+}
+#compD {
+    top: 235px;
+    left: 207px;
+}
+#compE {
+    top: 81px;
+    left: 237px;
+}
+#opA {
+    top: 394px;
+    left: -25px;
+}
+#opB {
+    top: 239px;
+    left: 5px;
+}
+#opC {
+    top: 82px;
+    left: 36px;
+}
+#opD {
+    top: 29px;
+    left: 250px;
+}
+#opE {
+    top: 186px;
+    left: 219px;
+}
+@media screen and (max-width: 1339px) {
+    .diamond {
+        width: 150px;
+        height: 130px;
+    }
+    .diamond a span {
+        top: 14px;
+        left: 16px;
+        width: 125px;
+    }
+}
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+    .newPathway {
+        width: 960px;
+        height: 640px;
+    }
+    .unitFractions {
+        height: 500px;
+    }
+    .comparingFractions {
+        height: 555px;
+    }
+    .operationsWithFractions {
+        height: 610px;
+    }
+    .diamond {
+        width: 140px;
+        height: 124px;
+    }
+    .diamond a span {
+        top: 14px;
+        left: 16px;
+        width: 110px;
+        line-height: 12px;
+    }
+    #unitA {
+        top: 271px;
+        left: -11px;
+    }
+    #unitB {
+        top: 145px;
+        left: 13px;
+    }
+    #unitC {
+        top: 17px;
+        left: 38px;
+    }
+    #unitD {
+        top: 233px;
+        left: 148px;
+    }
+    #unitE {
+        top: 107px;
+        left: 172px;
+    }
+    #unitF {
+        top: -21px;
+        left: 199px;
+    }
+    #compA {
+        top: 250px;
+        left: -2px;
+    }
+    #compB {
+        top: 123px;
+        left: 22px;
+    }
+    #compC {
+        top: 337px;
+        left: 132px;
+    }
+    #compD {
+        top: 211px;
+        left: 157px;
+    }
+    #compE {
+        top: 85px;
+        left: 182px;
+    }
+    #opA {
+        top: 353px;
+        left: -16px;
+    }
+    #opB {
+        top: 228px;
+        left: 8px;
+    }
+    #opC {
+        top: 102px;
+        left: 33px;
+    }
+    #opD {
+        top: 63px;
+        left: 191px;
+    }
+    #opE {
+        top: 189px;
+        left: 167px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .unitFractions,
+    .comparingFractions,
+    .operationsWithFractions {
+        width: 100%;
+        margin-top: 0;
+        height: 580px;
+    }
+    .newPathway {
+        height: auto;
+    }
+    .diamond {
+        width: 190px;
+        height: 143px;
+    }
+    .diamond a span {
+        top: 24px;
+        left: 16px;
+        width: 156px;
+        font-size: 14px;
+    }
+    #unitA,
+    #compA,
+    #opA {
+        top: 148px;
+        left: 61px;
+    }
+    #unitB,
+    #compB,
+    #opB {
+        top: 95px;
+        left: 284px;
+    }
+    #unitC,
+    #compC,
+    #opC {
+        top: 42px;
+        left: 505px;
+    }
+    #unitD {
+        top: 302px;
+        left: 33px;
+    }
+    #unitE {
+        top: 251px;
+        left: 255px;
+    }
+    #unitF {
+        top: 197px;
+        left: 478px;
+    }
+    #compD,
+    #opD {
+        top: 273px;
+        left: 150px;
+    }
+    #compE,
+    #opE {
+        top: 219px;
+        left: 375px;
+    }
+}
+@media screen and (max-width: 479px) {
+    .unitFractions {
+        height: 935px;
+    }
+    .comparingFractions,
+    .operationsWithFractions {
+        height: 795px;
+    }
+    #unitA,
+    #compA,
+    #opA {
+        top: 22px;
+        left: 32px;
+    }
+    #unitB,
+    #compB,
+    #opB {
+        top: 156px;
+        left: 32px;
+    }
+    #unitC,
+    #compC,
+    #opC {
+        top: 293px;
+        left: 32px;
+    }
+    #unitD,
+    #compD,
+    #opD {
+        top: 428px;
+        left: 32px;
+    }
+    #unitE,
+    #compE,
+    #opE {
+        top: 564px;
+        left: 32px;
+    }
+    #unitF {
+        top: 701px;
+        left: 32px;
+    }
+    .newPathway h4 {
+        font-size: 16px;
+    }
+}

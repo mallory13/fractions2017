@@ -1,0 +1,182 @@
+<%- include partials/header.ejs%>
+        <!-- Breadcrumbs -->
+    <ol class="breadcrumb">
+        <li><a href="/">Home</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ol>
+
+    <main class="container">
+        <h1 id="contact">Contact Me</h1>
+        <div data-ng-controller="ContactFormController as cf">
+        <!-- <form name="contactForm" data-ng-submit="cf.sendMail()" action="" method="post" enctype="multipart/form-data" > -->
+        <form name="contactForm" action="/contact/contact-me" method="post" id="contactForm">
+         <fieldset class="well well-large text-left">
+             <div class="input-group">
+               <div class="row">
+                 <div class="col-md-4">
+            <label for="firstName" >First Name:</label>
+          </div>
+          <div class="col-md-8">
+            <input type="text" data-ng-model="cf.firstName" class="form-control" id="firstName" name="first-name" placeholder="Enter your first name" required />
+          </div>
+           </div>
+           </div>
+
+
+
+             <div class="input-group">
+               <div class="row">
+                 <div class="col-md-4">
+            <label for="lastName">Last Name:</label>
+          </div>
+          <div class="col-md-8">
+            <input type="text" data-ng-model="cf.lastName" class="form-control" id="lastName" name="last-name" placeholder="Enter your last name" required />
+            </div>
+            </div>
+            </div>
+
+
+
+            <div class="input-group">
+              <div class="row">
+                <div class="col-md-4">
+            <label for="email">Email:</label>
+          </div>
+          <div class="col-md-8">
+            <input type="email" data-ng-model="cf.email" class="form-control" id="email" name="email" placeholder="Enter your email address" required />
+          </div>
+          </div>
+          </div>
+
+
+
+            <div class="input-group">
+              <div class="row">
+                <div class="col-md-4">
+  <label for="schoolBoard" class="control-label">School Board:</label>
+</div>
+<div class="col-md-8">
+    <select class="form-control" data-ng-model="schoolBoard" name="school">
+      <option>None</option>
+      <option>Out of Province Board</option>
+      <option>Algoma District School Board</option>
+      <option>Algonquin and Lakeshore Catholic District School Board</option>
+      <option>Avon Maitland District School Board</option>
+      <option>Bloorview School Authority</option>
+      <option>Bluewater District School Board</option>
+      <option>Brant Haldimand Norfolk Catholic District School Board</option>
+      <option>Bruce-Grey Catholic District School Board</option>
+      <option>Campbell Children's School Authority</option>
+      <option>Catholic District School Board of Eastern Ontario</option>
+      <option>Conseil des écoles publiques de l'Est de l'Ontario</option>
+      <option>Conseil scolaire de district catholique Centre-Sud</option>
+      <option>Conseil scolaire de district catholique de l'Est ontarien</option>
+      <option>Conseil scolaire de district catholique des Aurores boréales</option>
+      <option>Conseil scolaire de district catholique des Grandes Rivières</option>
+      <option>Conseil scolaire de district catholique du Centre-Est de l'Ontario</option>
+      <option>Conseil scolaire de district catholique du Nouvel-Ontario</option>
+      <option>Conseil scolaire de district catholique Franco-Nord</option>
+      <option>Conseil scolaire catholique Providence</option>
+      <option>Conseil scolaire Viamonde</option>
+      <option>Conseil scolaire de district du Grand Nord de l'Ontario</option>
+      <option>Conseil scolaire de district du Nord-Est de l'Ontario</option>
+      <option>District School Board of Niagara</option>
+      <option>District School Board Ontario North East</option>
+      <option>Dufferin-Peel Catholic District School Board</option>
+      <option>Durham Catholic District School Board</option>
+      <option>Durham District School Board</option>
+      <option>Grand Erie District School Board</option>
+      <option>Greater Essex County District School Board</option>
+      <option>Halton Catholic District School Board</option>
+      <option>Halton District School Board</option>
+      <option>Hamilton-Wentworth Catholic District School Board</option>
+      <option>Hamilton-Wentworth District School Board</option>
+      <option>Hastings & Prince Edward District School Board</option>
+      <option>Huron Perth Catholic District School Board</option>
+      <option>Huron-Superior Catholic District School Board</option>
+      <option>James Bay Lowlands Secondary School Board</option>
+      <option>John McGivney Children's Centre School Authority</option>
+      <option>Kawartha Pine Ridge District School Board</option>
+      <option>Keewatin-Patricia District School Board</option>
+      <option>Kenora Catholic District School Board</option>
+      <option>KidsAbility Education Authority</option>
+      <option>Lakehead District School Board</option>
+      <option>Lambton Kent District School Board</option>
+      <option>Limestone District School Board</option>
+      <option>London District Catholic School Board</option>
+      <option>Moose Factory Island District School Area Board</option>
+      <option>Moosonee District School Area Board</option>
+      <option>Near North District School Board</option>
+      <option>Niagara Catholic District School Board</option>
+      <option>Niagara Peninsula Children's Centre School Authority</option>
+      <option>Nipissing-Parry Sound Catholic District School Board</option>
+      <option>Northeastern Catholic District School Board</option>
+      <option>Northwest Catholic District School Board</option>
+      <option>Ottawa Catholic District School Board</option>
+      <option>Ottawa Children's Treatment Centre School Authority</option>
+      <option>Ottawa-Carleton District School Board</option>
+      <option>Peel District School Board</option>
+      <option>Penetanguishene Protestant Separate School Board</option>
+      <option>Peterborough Victoria Northumberland and Clarington Catholic District School Board</option>
+      <option>Provincial Schools</option>
+      <option>Rainbow District School Board</option>
+      <option>Rainy River District School Board</option>
+      <option>Renfrew County Catholic District School Board</option>
+      <option>Renfrew County District School Board</option>
+      <option>Simcoe County District School Board</option>
+      <option>Simcoe Muskoka Catholic District School Board</option>
+      <option>St Clair Catholic District School Board</option>
+      <option>Sudbury Catholic District School Board</option>
+      <option>Superior North Catholic District School Board</option>
+      <option>Superior-Greenstone District School Board</option>
+      <option>Thames Valley District School Board</option>
+      <option>Thunder Bay Catholic District School Board</option>
+      <option>Toronto Catholic District School Board</option>
+      <option>Toronto District School Board</option>
+      <option>Trillium Lakelands District School Board</option>
+      <option>Upper Canada District School Board</option>
+      <option>Upper Grand District School Board</option>
+      <option>Waterloo Catholic District School Board</option>
+      <option>Waterloo Region District School Board</option>
+      <option>Wellington Catholic District School Board</option>
+      <option>Windsor-Essex Catholic District School Board</option>
+      <option>York Catholic District School Board</option>
+      <option>York Region District School Board</option>
+    </select>
+  </div>
+  </div>
+  </div>
+
+<div class="input-group">
+              <div class="row">
+                <div class="col-md-4">
+            <label for="other">Other:</label>
+          </div>
+          <div class="col-md-8">
+            <input type="text" data-ng-model="otherSchool" class="form-control" id="otherSchool" name="otherSchool" placeholder="Or enter other school" />
+          </div>
+          </div>
+          </div>
+
+            <div class="input-group">
+              <div class="row">
+                <div class="col-md-4">
+            <label for="message">Message:</label>
+          </div>
+          <div class="col-md-8">
+            <textarea rows="4" cols="50" id="message" data-ng-model="message" class="form-control" name="message" placeholder="Enter a message"></textarea>
+            </div>
+            </div>
+            </div>
+
+
+            <p></p>
+            <div class="input-group">
+            <input type="submit" class="btn btn-info btn-lg btn-block" value="Submit" />
+        </div>
+
+         </fieldset>
+      </form>
+        </div>
+        <!-- <script type="text/javascript" src="/javascripts/contact.js"></script> -->
+<%- include partials/footer.ejs%>
