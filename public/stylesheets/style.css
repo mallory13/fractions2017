@@ -175,21 +175,66 @@ p {
 main {
     background: #E2EEFA;
 }
+/*Navigation Bar Containers*/
+ div.nav-container-bigbox {
+    display: flex;
+    flex-direction: row;
+    background-color: #724199;
+}
+div.nav-box-1 {
+    width: 75%;
+}
+div.nav-box-2 {
+    width: 25%;
+}
+/*END Navigation Bar Containers*/
+/*Custom Google Search Bar*/
 .gsc-control-cse {
     border-color: #724199 !important;
     background: #724199 !important;
+    padding: 0 !important;
 }
+input.gsc-search-button {
+    padding: 10px !important;
+    height: 30px !important;
+    width: 30px !important;
+    
+}
+input.gsc-input {
+    padding: 5px !important;
+    margin-left: 0px;
+}
+div.gsc-clear-button {
+    display: none !important;
+}
+td.gsc-clear-button {
+    width: 0px !important;
+}
+td.gsc-input {
+    padding-right: 1px !important;
+}
+div.gsc-input-box > table > tbody > tr {
+    height: 0px !important;
+}
+div.gsc-input-box {
+    height: auto;
+}
+/*END Custom Google Search Bar*/
 .navbar {
-    position: fixed;
+    /*position: fixed;*/
+    margin-bottom: 0px;
     top: 0;
     z-index: 1000;
     background: #724199;
     border-color: #724199 !important;
 }
+.navbar-header, .navbar-header ul {
+    width: 100%;
+}
 .navbar-inverse {
     background-image: #724199 !important;
 }
-.breadcrumb,
+/*.breadcrumb,*/
 main {
     margin-top: 59px;
 }
@@ -235,6 +280,19 @@ main {
     display: inline-block;
     margin-bottom: 30px;
     padding: 0 10px;
+}
+/*ARKWELL*/
+.unitFractionsBlocksHalf div {
+    text-align: center;
+    width: 49%;
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 0 10px;
+}
+.unitFractionsDivFloat{
+    float:left;
+    padding:25px;
+    text-align:center;
 }
 .compBlocks div {
     text-align: center;
@@ -741,6 +799,11 @@ table td {
     .gsc-control-cse {
         padding: 0 !important;
     }
+    /*siva full width buttons*/
+    .siva-button{
+        width:96% !important;
+        margin:2% !important;
+    }
 }
 @media screen and (max-width: 767px) {
     main {
@@ -900,3 +963,38 @@ table td {
         height: auto;
     }
 }
+
+/*global navigation fixes*/
+.navbar-nav > li > .dropdown-menu{
+	width:auto;
+}
+
+/*four buttons on payAttentionOverview.ejs*/
+.siva-button{
+    text-align:center;
+    padding:35px;
+    margin:25px 1%;
+    width:48%;
+    background-color:lightgrey;
+    height:200px;
+    line-height:120px;
+    border:1px solid grey;
+    border-radius:5px;
+}
+
+.siva-button {
+    text-align: center;
+}
+.siva-button:hover{
+    background-color:grey;
+}
+.siva-button span {
+    height: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+.siva-button h2 {
+    vertical-align: middle;
+    display: inline-block;
+    font-size:20px;
+}​
