@@ -30,3 +30,7 @@ small {
     padding-left: 5%;
     font-size: 2em;
 }
+
+footer div.row {
+    margin:0px;
+}

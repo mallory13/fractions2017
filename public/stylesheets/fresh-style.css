@@ -1,0 +1,430 @@
+/**
+* New Fractions CSS v0.1
+* Complete revamp of CSS
+* Author: Andrew Arkwell
+* Last Updated: August 14, 2017
+**/
+
+/*body styling*/
+body {
+    background-color: #E2EEFA;
+    color: #222;
+    font-size: 1.5em;
+    font-family: 'Lato', 'Georgia', 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+/*top header brand image*/
+.brand-logo{
+    max-height:30px;
+    margin:10px;
+}
+
+/*set background colours*/
+.background-purple{
+    background-color:#724199;
+}
+
+/*styling top nav bar buttons and active links*/
+.navbar-default .navbar-nav > li > a{
+    color:white !important;
+    box-shadow:none !important;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .open > a{
+    background-image:none !important;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover{
+    background-color:#5a317a !important;
+}
+.navbar{
+    margin-bottom:0 !important;
+}
+.navbar-default{
+    border:none !important;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+    background-color:#724199 !important;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color:white;
+}
+.navbar-default .navbar-toggle{
+    border:none;
+    background-color:#5a317a;
+    border-radius:0;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+    background-color:#5a317a !important;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a{
+    color:white;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus{
+    color:white !important;
+    background-color:#5a317a !important;
+}
+.open > .dropdown-menu{
+    background-color:#724199;
+    color:white;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
+    background-image:none !important;
+}
+
+/*fix overall overflow*/
+body{
+    overflow-x:hidden !important;
+    color: #222 !important;
+    font-size: 1.5em !important;
+    font-family: 'Lato', 'Georgia', 'Times New Roman', Times, serif !important;
+}
+
+/*style top search bar*/
+.gsc-control-cse{
+    background-color:rgba(0,0,0,0) !important;
+    border:none !important;
+}
+table.gsc-search-box td{
+    line-height:1.4em;
+}
+.cse input.gsc-search-button, input.gsc-search-button{
+    background-image: url("https://www.google.com/uds/css/v2/search_box_icon.png") !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height:30px !important;
+}
+input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:focus{
+    /*background-color:transparent !important;*/
+    border:none !important;
+    border-radius:0 !important;
+}
+
+/*hide weird overflow on mobile with search bar*/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    overflow:hidden;
+}
+
+/*headers and default styles*/
+h1{
+    text-align: center;
+    font-size: 3em;
+    color: #724199;
+    font-weight: bold;
+}
+h3 {
+    font-size: 2em;
+    color: #724199;
+    font-weight: bold;
+}
+h4, h5 {
+    color: #724199;
+    font-size: 16px;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration:none !important;
+    color: #5a317a;
+}
+
+/*default styling*/
+.linkBubble {
+    margin: 20px auto;
+    border: 3px solid #aaa;
+    box-shadow: none;
+    font-size: 2em;
+    width: 80%;
+    height: 15%;
+    text-align: center;
+    background-color: #eee;
+    color: #222;
+}
+.linkBubble p{
+    margin:5px 0 !important;
+}
+.pathway{
+    border: 3px solid #aaa;
+    background-color: #eee;
+    color: #222;
+    width: 92%;
+    height: 5%;
+    padding: 48px 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+.pathway:hover, .linkBubble:hover{
+    border-color:#724199;
+}
+
+/*footer styling*/
+footer{
+    height: auto;
+    padding: 1%;
+    margin: 0 auto;
+    background-color: #82BC00;
+    text-align: center;
+    position: relative;
+}
+footer a{
+    color:#f3f3f3;
+}
+footer p{
+    margin-bottom:0;
+}
+
+/*add top margin when necessary*/
+.top-margin{
+    margin-top:25px;
+}
+.top-margin-50{
+    margin-top:50px;
+}
+.bottom-margin{
+    margin-bottom:25px;
+}
+
+/*All Activities*/
+.thumbnail {
+    background-color: #eee;
+    text-align: center;
+    min-height: 270px;
+    border: 1px solid #777;
+}
+.thumbnail:hover{
+    background-color:lightgrey;
+}
+.thumbnail img {
+    height: auto;
+    width: auto;
+    max-height: 200px;
+}
+.thumbnail a > img, .thumbnail > img {
+    margin-right: auto;
+    margin-left: auto;
+}
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+.thumbnail .caption h2 {
+    font-size: 1.1em;
+}
+.thumbnail h2, .thumbnail h3 {
+    color: #724199;
+    font-size: 1.3em;
+}
+
+/*Tasks*/
+.small-thumb {
+    min-height: 120px !important;
+}
+.thumbnail {
+    background-color: #eee;
+    text-align: center;
+    min-height: 270px;
+    border: 1px solid #777;
+}
+.green {
+    background-color: #82BC00;
+}
+.blue {
+    background-color: #00C1DE;
+}
+.orange {
+    background-color: #FF6B00;
+}
+
+/*style video*/
+iframe {
+    margin: 0 auto;
+    display: block;
+}
+
+/*research grey buttons*/
+.siva-button h2 {
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 20px;
+}
+.siva-button {
+    text-align: center;
+}
+.siva-button {
+    text-align: center;
+    padding: 35px;
+    margin: 25px 1%;
+    width: 48%;
+    background-color: lightgrey;
+    height: 200px;
+    line-height: 120px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+/*pdf page*/
+.pdf-page {
+    background: #fff;
+    -webkit-box-shadow: 0px 6px 15px 0px rgba(50, 50, 50, 0.7);
+    -moz-box-shadow: 0px 6px 15px 0px rgba(50, 50, 50, 0.7);
+    box-shadow: 0px 6px 15px 0px rgba(50, 50, 50, 0.7);
+    max-width: 1080px;
+    padding: 30px 40px;
+    position: relative;
+    margin-bottom:25px;
+}
+.pdf-page .col-dark-blue {
+    color: #548ed4;
+}
+.pdf-page h2 {
+    color: #00c1de;
+}
+.center {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.gen-pdf {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.gen-pdf {
+    width: 124px;
+    height: 34px;
+    background: url(/images/pdfBtnImg.png) no-repeat;
+    background-size: auto auto;
+    background-size: contain;
+}
+.gen-pdf a {
+    padding: 17px 62px;
+    font-size: 0;
+}
+.pdf-page ul {
+    list-style: none;
+}
+.pdf-page ul li {
+    margin-bottom: 10px;
+}
+
+/*pdf table*/
+.pdf-page table {
+    margin-bottom: 20px;
+}
+.pdf-page table {
+    border: 2px solid #4f81bd;
+}
+.pdf-page table th {
+    text-align: center;
+    background: #00c1de;
+    color: #fff;
+    border-bottom: 2px solid #4f81bd;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.pdf-page .tbl-col-7 tr td, .pdf-page .tbl-col-8 tr td, .pdf-page .tbl-col-10 tr td {
+    font-size: 12px;
+}
+.pdf-page .tbl-col-7 tr td ul, .pdf-page .tbl-col-8 tr td ul, .pdf-page .tbl-col-10 tr td ul {
+    padding-left: 5px;
+}
+.ftable, #ftable{
+    margin-top:25px;
+}
+.tbl-small-font {
+    font-size: 12px;
+}
+.tbl-medium-font {
+    font-size: 14px;
+}
+.tbl-ul-pad tr td ul {
+    padding-left: 5px;
+}
+
+/*pdf bubble*/
+.plf .linkBubble {
+    border: 1px solid #00C1DE;
+    box-shadow: 0 0 8px #999;
+    font-size: 2em;
+    width: 30%;
+    height: 160px;
+    text-align: center;
+    background-color: #fefefe;
+    color: #222;
+    display: inline-block;
+    vertical-align: top;
+    margin: 50px 0;
+        margin-right: 0px;
+    padding: 20px 6px;
+    margin-left:1%;
+    margin-right:1%;
+}
+.plf .linkBubble:last-child {
+    margin-right: 0;
+    padding-top: 50px;
+}
+
+/*search icon*/
+.search-button{
+    margin:10px;
+}
+
+/*modal styling (popup*/
+.modal-header .close{
+    font-size:14px;
+}
+
+/*styling pathways pages*/
+.unitFractionsBlocksHalf div {
+    text-align: center;
+    width: 49%;
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 0 10px;
+}
+.unitFractionsDivFloat {
+    float: left;
+    padding: 25px;
+    text-align: center;
+}
+.compBlocks div {
+    text-align: center;
+    width: 49%;
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 0 10px;
+}
+.opBlocks div {
+    text-align: center;
+    width: 49%;
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+.green-unit-grid .thumbnail {
+    min-height: 320px;
+}
+.panel-body img {
+    max-width: 100%;
+}
+.panel-body {
+    background: #e7e7e7;
+}.panel-body table {
+    background: #fff;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+table td {
+    vertical-align: top;
+    padding: 4px 8px;
+}

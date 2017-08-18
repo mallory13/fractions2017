@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <!--
    Fractions Teaching
-   @author: Mallory Steele
-   @Date: 2016
-
+   @author: Andrew Arkwell
+   @Date: 2017
+   @Note: Complete revamp of styling and entire header, scripts, and all elements included herein
    -->
 <html lang="en-ca">
    <head>
@@ -11,114 +11,133 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!--css section-->
-      <link rel='stylesheet' href='/stylesheets/bootstrap.min.css' />
-      <link rel='stylesheet' href='/stylesheets/bootstrap-theme.min.css' />
+      <link rel='stylesheet' href='/stylesheets/new/bootstrap.min.css' />
+      <link rel='stylesheet' href='/stylesheets/new/bootstrap-theme.min.css' />
       <link rel='stylesheet' href='/stylesheets/font-awesome.min.css' />
-      <link rel='stylesheet' href='/stylesheets/style.css' />
-      <link rel='stylesheet' href='/stylesheets/pathway.css' />
-      <link rel='stylesheet' href='/stylesheets/footer.css' />
+      <!--<link rel='stylesheet' href='/stylesheets/style.css' />
+      <link rel='stylesheet' href='/stylesheets/footer.css' />-->
       <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700" rel="stylesheet">
+      <link rel='stylesheet' href='/stylesheets/fresh-style.css' />
+      <link rel='stylesheet' href='/stylesheets/pathway.css' />
+      <!-- Latest compiled and minified CSS
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <!-- Optional theme
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
       <title><%= title %> | Fractions Teaching</title>
    </head>
    <body>
-<div class="nav-container-bigbox">
-      <div class="nav-box-1">   
-            <div class="mobile-logo">
-            <a href="/"><img alt="Fractions Math logo " src="/images/logo.png" /></a>
-            </div>
-            <nav class="navbar navbar-inverse" id="floatingbar">
-            <div class="container-fluid">
-                  <!-- Brand and toggle get grouped for better mobile display -->
-                  <div class="navbar-header">
-                        <span class="mobile-menu-text">Menu</span>
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-                        aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        </button>
-                        <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                              <ul class="nav navbar-nav navbar-right navbar-inverse nav-pills">
-                                    <li class="logo-item"><a class="navbar-brand" href="/"><img alt="Fractions Math logo " src="/images/logo.png" height="20px" width="" /></a></li>
-                                    <li><a href="/">Home</a></li>
-                                    <li><a href="/pathway">Fractions Learning Pathways</a></li>
-                                    <li role="presentation" class="dropdown">
-                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                                    Activities<span class="caret"></span>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                          <li><a href="/tasks">All Activities</a></li>
-                                          <li><a href="/tasks/pathwayTasks">Tasks</a></li>
-                                          <li><a href="/tasks/digitalTasks">Lessons</a></li>
-                                          <!-- <li><a href="/">Quick Tasks</a></li> -->
-                                    </ul>
-                                    </li>
-                                    <li role="presentation" class="dropdown">
-                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                                    Research<span class="caret"></span>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                          <li><a href="/research">All Research</a></li>
-                                          <li><a href="/digitalPaper">Fractions: Representing, Ordering, Comparing</a></li>
-                                          <li><a href="/research/fracResearchSum">Fractions Research Summary</a></li>
-                                          <li><a href="/research/fracPathOverview">Fractions Learning Pathways Overview</a></li>
-                                          <li><a href="/research/fracResearchFindings">Fractions Research Findings</a></li>
-                                          <li><a href="/research/fracTenLess">Fractions Top Ten Lessons</a></li>
-                                          <li><a href="/research/payAttentionOverview">Paying Attention to Fractions Overview</a></li>
-                                          <li><a href="/supportDocs/supportDocs">Document Briefs</a></li>
-                                          <li><a href="/litreviews/litreviews">Literature Reviews</a></li>
-                                    </ul>
-                                    </li>
-                                    <li role="presentation" class="dropdown">
-                                    <a class="dropdown-toggle" data-toggle="dropdown"  role="button" aria-haspopup="true" aria-expanded="false">
-                                    Planning Supports<span class="caret"></span>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                          <li><a href="/planningSupports">Planning Supports</a></li>
-                                          <li><a href="/planningSupports/connAcrossStrands">Connections Across Strands (Gr. 4)</a></li>
-                                          <li><a href="/planningSupports/curConn4_8">Curriculum Connections (Gr 4-8)</a></li>
-                                          <li><a href="/planningSupports/currConn_8">Curriculum Connections (k- Gr8)</a></li>
-                                          <li><a href="/planningSupports/currConn_8Tab">Curriculum Connections (K-Gr 8 Tabloid)</a></li>
-                                          <li><a href="/planningSupports/compFrac">Research Informed Instruction Comparing Fractions</a></li>
-                                          <li><a href="/planningSupports/orderFrac">Research Informed Instruction Ordering Fractions</a></li>
-                                          <li><a href="/planningSupports/repFrac">Research Informed Instruction Representing Fractions</a></li>
-                                    </ul>
-                                    </li>
-                                    <li role="presentation" class="dropdown">
-                                    <a class="dropdown-toggle" data-toggle="dropdown"  role="button" aria-haspopup="true" aria-expanded="false">
-                                    Facilitator Supports<span class="caret"></span>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                          <li><a href="/plfSupports">All Facilitator Supports</a></li>
-                                          <li><a href="/plfSupports/proLearnIntroFrac">Professional Learning Intro to Fractions</a></li>
-                                          <li><a href="/plfSupports/postcard">Postcard</a></li>
-                                    </ul>
-                                    </li>
-                              </ul>
-                              
-                        </div>
-                        <!-- /.navbar-collapse -->
-                  </div>
-                  <!-- /.container-fluid -->
-            </div>
-            </nav>
+
+<nav class="navbar navbar-default">
+
+  <div class="container-fluid background-purple">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><a href="/"><img alt="Fractions Math logo " src="/images/logo.png" class="brand-logo"/></a></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-toggleable-lg" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <!--link - Home-->
+        <li><a href="/">Home </a></li>
+        <!--<li class="active"><a href="/">Home <span class="sr-only">(current)</span></a></li>-->
+        <!--link - Fractions Learning Pathways-->
+        <li><a href="/pathway">Fractions Learning Pathways</a></li>
+        <!--dropdown - Activities-->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Activities <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/tasks">All Activities</a></li>
+            <li><a href="/tasks/pathwayTasks">Tasks</a></li>
+            <li><a href="/tasks/digitalTasks">Lessons</a></li>
+          </ul>
+        </li>
+        <!--dropdown - Research-->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Research <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/research">All Research</a></li>
+            <li><a href="/digitalPaper">Fractions: Representing, Ordering, Comparing</a></li>
+            <li><a href="/research/fracResearchSum">Fractions Research Summary</a></li>
+            <li><a href="/research/fracPathOverview">Fractions Learning Pathways Overview</a></li>
+            <li><a href="/research/fracResearchFindings">Fractions Research Findings</a></li>
+            <li><a href="/research/fracTenLess">Fractions Top Ten Lessons</a></li>
+            <li><a href="/research/payAttentionOverview">Paying Attention to Fractions Overview</a></li>
+            <li><a href="/supportDocs/supportDocs">Document Briefs</a></li>
+            <li><a href="/litreviews/litreviews">Literature Reviews</a></li>
+          </ul>
+        </li>
+        <!--dropdown - Planning Supports-->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Planning Supports <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/planningSupports">Planning Supports</a></li>
+            <li><a href="/planningSupports/connAcrossStrands">Connections Across Strands (Gr. 4)</a></li>
+            <li><a href="/planningSupports/curConn4_8">Curriculum Connections (Gr 4-8)</a></li>
+            <li><a href="/planningSupports/currConn_8">Curriculum Connections (k- Gr8)</a></li>
+            <li><a href="/planningSupports/currConn_8Tab">Curriculum Connections (K-Gr 8 Tabloid)</a></li>
+            <li><a href="/planningSupports/compFrac">Research Informed Instruction Comparing Fractions</a></li>
+            <li><a href="/planningSupports/orderFrac">Research Informed Instruction Ordering Fractions</a></li>
+            <li><a href="/planningSupports/repFrac">Research Informed Instruction Representing Fractions</a></li>
+          </ul>
+        </li>
+        <!--dropdown - Facilitator Supports-->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Facilitator Supports <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/plfSupports">All Facilitator Supports</a></li>
+            <li><a href="/plfSupports/proLearnIntroFrac">Professional Learning Intro to Fractions</a></li>
+            <li><a href="/plfSupports/postcard">Postcard</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <button type="button" class="btn btn-default btn-sm search-button" data-toggle="modal" data-target="#myModal">
+          <i class="fa fa-search" aria-hidden="true"></i> Search 
+        </button>
+      </ul>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" alt="Close the popup window" title="Close the popup window" data-dismiss="modal">Close Popup</button>
+        <h4 class="modal-title">Fractions: Search Entire Site</h4>
       </div>
-      <div class="nav-box-2">
-            <div>
-                  <script>
+      <div class="modal-body">
+          <!--right form - search bar-->
+          <div class="google-search-bar">
+                <script>
                   (function() {
-                  var cx = '003714089169410052934:vxpfax7oxik';
-                  var gcse = document.createElement('script');
-                  gcse.type = 'text/javascript';
-                  gcse.async = true;
-                  gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-                  var s = document.getElementsByTagName('script')[0];
-                  s.parentNode.insertBefore(gcse, s);
+                    var cx = '003494330858312639539:cw0yig4pajk';
+                    var gcse = document.createElement('script');
+                    gcse.type = 'text/javascript';
+                    gcse.async = true;
+                    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(gcse, s);
                   })();
-                  </script>
-                  <gcse:search></gcse:search>
-            </div>
+                </script>
+                <gcse:search></gcse:search>
+          </div>
       </div>
+    </div>
+  </div>
 </div>

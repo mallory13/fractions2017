@@ -305,11 +305,11 @@ border: 4px solid #FF871F;
     top: 82px;
     left: 36px;
 }
-#opD {
+#opE {
     top: 29px;
     left: 250px;
 }
-#opE {
+#opD {
     top: 186px;
     left: 219px;
 }
@@ -404,11 +404,11 @@ border: 4px solid #FF871F;
         top: 102px;
         left: 33px;
     }
-    #opD {
+    #opE {
         top: 63px;
         left: 191px;
     }
-    #opE {
+    #opD {
         top: 189px;
         left: 167px;
     }
@@ -465,12 +465,12 @@ border: 4px solid #FF871F;
         left: 478px;
     }
     #compD,
-    #opD {
+    #opE {
         top: 273px;
         left: 150px;
     }
     #compE,
-    #opE {
+    #opD {
         top: 219px;
         left: 375px;
     }
@@ -503,13 +503,13 @@ border: 4px solid #FF871F;
     }
     #unitD,
     #compD,
-    #opD {
+    #opE {
         top: 428px;
         left: 32px;
     }
     #unitE,
     #compE,
-    #opE {
+    #opD {
         top: 564px;
         left: 32px;
     }
