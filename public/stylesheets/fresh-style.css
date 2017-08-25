@@ -131,14 +131,14 @@ a:hover{
     margin: 20px auto;
     border: 3px solid #aaa;
     box-shadow: none;
-    font-size: 2em;
+    font-size: 1.4em;
     width: 80%;
-    height: 15%;
+    height: auto !important;
     text-align: center;
     background-color: #eee;
     color: #222;
 }
-.linkBubble p{
+.linkBubble a{
     margin:5px 0 !important;
 }
 .pathway{
@@ -220,6 +220,23 @@ footer p{
     color: #724199;
     font-size: 1.3em;
 }
+/*.thumbnail {
+    background-color: #eee;
+    text-align: center;
+    min-height: 300px;
+    border: 1px solid #777;
+    vertical-align: middle;
+    display: table;
+    height: 300px;
+    overflow: hidden;
+    width: 100%;
+}
+.thumbnail .caption {
+    padding: 9px;
+    color: #333;
+    display: table-cell;
+    vertical-align: middle;
+}*/
 
 /*Tasks*/
 .small-thumb {
@@ -306,7 +323,7 @@ iframe {
     font-size: 0;
 }
 .pdf-page ul {
-    list-style: none;
+    /*list-style: none;*/
 }
 .pdf-page ul li {
     margin-bottom: 10px;
@@ -427,4 +444,63 @@ table {
 table td {
     vertical-align: top;
     padding: 4px 8px;
+}
+
+/*making images great*/
+.full-width{
+    width:100%;
+}
+
+/*fix search bar functionality*/
+.gsib_a{
+padding: 5px 0 5px 5px !important;
+line-height:1.4em !important;
+}
+.gsc-input-box{
+height:100% !important;
+}
+input.gsc-search-button:hover{
+background-color:grey !important;
+}
+
+/*smooth scroll to top*/
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #724199; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 5px 15px; /* Some padding */
+    border-radius: 0; /* Rounded corners */
+}
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/*pathway print and save buttons*/
+.print-save-btn{
+    float:right;
+    margin:0 5px;
+}
+
+.printbutton {
+  visibility: hidden;
+  display: none;
+}
+
+/*purple text*/
+.purple-text{
+    color:#724199 !important;
+}
+
+/*block quotes*/
+blockquote{
+    font-size: 15px !important;
+    border: none !important;
+    font-style: italic !important;
 }

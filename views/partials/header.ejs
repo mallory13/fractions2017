@@ -111,6 +111,8 @@
   </div><!-- /.container-fluid -->
 </nav>
 
+ <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
+
 <!-- Modal -->
 <div id="myModal" class="modal fade" role="dialog">
   <div class="modal-dialog">
@@ -122,22 +124,40 @@
         <h4 class="modal-title">Fractions: Search Entire Site</h4>
       </div>
       <div class="modal-body">
+        <span style="font-size:12px;font-style:italic;color:grey;">Search results will only be displayed for websites properly indexed by Google.</span>
           <!--right form - search bar-->
-          <div class="google-search-bar">
-                <script>
-                  (function() {
-                    var cx = '003494330858312639539:cw0yig4pajk';
-                    var gcse = document.createElement('script');
-                    gcse.type = 'text/javascript';
-                    gcse.async = true;
-                    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-                    var s = document.getElementsByTagName('script')[0];
-                    s.parentNode.insertBefore(gcse, s);
-                  })();
-                </script>
-                <gcse:search></gcse:search>
-          </div>
+          <script>
+            (function() {
+              var cx = '003494330858312639539:cw0yig4pajk';
+              var gcse = document.createElement('script');
+              gcse.type = 'text/javascript';
+              gcse.async = true;
+              gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(gcse, s);
+            })();
+          </script>
+          <gcse:search></gcse:search>
       </div>
     </div>
   </div>
 </div>
+
+<script>
+  // When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Chrome, Safari and Opera
+    document.documentElement.scrollTop = 0; // For IE and Firefox
+} 
+</script>
