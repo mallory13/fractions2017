@@ -181,6 +181,10 @@ router.get('/walkLine', function(req, res, next) {
   res.render('walkLine', {title:"Unit A Walk the Line"});
 });
 
+router.get('/equivalencyComp', function(req, res, next) {
+  res.render('equivalencyComp', {title:"Comp A Equivalency Comparisons"});
+});
+
 
 
 
@@ -355,5 +359,36 @@ router.get('/changeWholesStudentThinking', function(req, res, next) {
   res.render('changeWholesStudentThinking', {title:"Changing Wholes Student Thinking"});
 });
 
+router.get('/familiarFractionsBenchmarksComparisons', function(req, res, next) {
+  res.render('familiarFractionsBenchmarksComparisons', {title:"COMP B Familiar Fractions and Benchmarks Comparisons"});
+});
+
+router.get('/familiarFractionsBenchmarksComparisonsTeacherNotes', function(req, res, next) {
+  res.render('familiarFractionsBenchmarksComparisonsTeacherNotes', {title:"COMP B Familiar Fractions and Benchmarks Comparisons - Teacher Notes"});
+});
+
+router.get('/generatingFractionsbetweenTwoNumbers', function(req, res, next) {
+  res.render('generatingFractionsbetweenTwoNumbers', {title:"COMP C Generating Fractions between Two Numbers (Fraction Density)"});
+});
+
+router.get('/generatingFractionsbetweenTwoNumbersTeacherNotes', function(req, res, next) {
+  res.render('generatingFractionsbetweenTwoNumbersTeacherNotes', {title:"COMP C Generating Fractions between Two Numbers (Fraction Density) - Teacher Notes"});
+});
+
+router.get('/comparingFractionsTask', function(req, res, next) {
+  res.render('comparingFractionsTask', {title:"COMP E Comparing Fractions Task"});
+});
+
+router.get('/comparingFractionsTaskTeacherNotes', function(req, res, next) {
+  res.render('comparingFractionsTaskTeacherNotes', {title:"COMP E Comparing Fractions Task - Teacher Notes"});
+});
+
+router.get('/equivalencyComparisonsTeacherNotes', function(req, res, next) {
+  res.render('equivalencyComparisonsTeacherNotes', {title:"Comp A Equivalency Comparisons - Teacher Notes"});
+});
+
+router.get('/comparingFractionsNumeratorsDenominatorsTeacherNotes', function(req, res, next) {
+  res.render('comparingFractionsNumeratorsDenominatorsTeacherNotes', {title:"Comp D Comparing Fractions with Like Numerators or Like Denominators - Teacher Notes"});
+}); 
 
 module.exports = router;

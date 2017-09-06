@@ -2,57 +2,56 @@
 <!-- Breadcrumbs -->
 <ol class="breadcrumb">
     <li><a href="/">Home</a></li>
-    <li><a href="/tasks">Activities</a></li>
+    <li><a href="/tasks">All Activities</a></li>
 </ol>
 
 
 <main class="container">
-<section>
-  <h1>Activities</h1>
-
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
-
-  <div class="row">
-  <a href="/tasks/pathwayTasks">
-    <div class="col-md-4">
-      <div class="thumbnail">
-        <img src="/images/pathway/pathway.png" alt="Pathways Tasks" height="100px" width="200px" class="img-rounded">
-        <div class="caption">
-          <h2>Tasks</h2>
-          <p></p>
+  <section class="row padding-bottom">
+    <div class="col-sm-12 col-md-12">
+      <h1>All Activities</h1>
+    </div>
+  </section>
+  
+  <section class="row">
+    <a href="/tasks/pathwayTasks">
+      <div class="col-sm-4 col-md-4">
+        <div class="thumbnail">
+          <figure>
+            <img src="/images/pathway/pathway.png" alt="Pathways Tasks" class="img-responsive margin-auto">
+          </figure>
+          <div class="caption">
+            <h2>Tasks</h2>
+            <p></p>
+          </div>
         </div>
       </div>
-    </div>
-  </a>
-
-
-  <a href="/tasks/digitalTasks">
-    <div class="col-md-4">
-      <div class="thumbnail">
-        <img src="/images/digitalPaper.png" alt="Digital Paper Lessons" height="100px" width="200px" class="img-rounded">
-        <div class="caption">
-          <h2>Lessons</h2>
-          <p></p>
+    </a>
+    <a href="/tasks/digitalTasks">
+      <div class="col-sm-4 col-md-4">
+        <div class="thumbnail">
+          <figure>
+            <img src="/images/digitalPaper.png" alt="Digital Paper Lessons" class="img-responsive margin-auto">
+          </figure>
+          <div class="caption">
+            <h2>Lessons</h2>
+            <p></p>
+          </div>
         </div>
       </div>
-    </div>
-  </a>
-
-
-
-  <a href="">
-    <div class="col-md-4">
-      <div class="thumbnail">
-        <img src="/images/comingsoon.png" alt="Quick Tasks Coming Soon" height="100px" width="200px" class="img-rounded">
-        <div class="caption">
-          <h2>Quick Tasks</h2>
-          <p></p>
+    </a>
+    <a href="">
+      <div class="col-sm-4 col-md-4">
+        <div class="thumbnail">
+          <figure>
+            <img src="/images/comingsoon.png" alt="Quick Tasks Coming Soon" class="img-responsive margin-auto">
+          </figure>
+          <div class="caption">
+            <h2>Quick Tasks</h2>
+            <p></p>
+          </div>
         </div>
       </div>
-    </div>
-  </a>
-
-    </div>
-
+    </a>
+  </section>
 <%- include partials/footer.ejs%>
