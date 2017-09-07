@@ -157,6 +157,9 @@ a:hover{
 .linkBubble a{
     margin:5px 0 !important;
 }
+.linkBubble .nice-p{
+    margin:15px;
+}
 .pathway{
     border: 3px solid #aaa;
     background-color: #eee;
