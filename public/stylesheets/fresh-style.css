@@ -240,23 +240,11 @@ footer p{
     color: #724199;
     font-size: 1.3em;
 }
-/*.thumbnail {
-    background-color: #eee;
-    text-align: center;
-    min-height: 300px;
-    border: 1px solid #777;
-    vertical-align: middle;
-    display: table;
-    height: 300px;
-    overflow: hidden;
-    width: 100%;
+.thumbnail-special {
+    border-radius: 35px;
+    padding: 15px;
+    border-color: #337ab7 !important;
 }
-.thumbnail .caption {
-    padding: 9px;
-    color: #333;
-    display: table-cell;
-    vertical-align: middle;
-}*/
 
 /*Tasks*/
 .small-thumb {
@@ -812,4 +800,13 @@ table th {
 }
 .no-border-left {
     border-left: none !important;
+}
+
+/* TaskThinking bottom box */
+.green-box {
+    padding: 10px;
+    margin: 5px;
+}
+.display-flex {
+    display: flex;
 }

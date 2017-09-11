@@ -8,6 +8,9 @@ var router = express.Router();
 //one json array to hold all the variables we want to pass back
 
 // GET digital pathway pages
+router.get('/researchBackground', function(req, res, next) {
+  res.render('researchBackground', {title:"Research Background"});
+});
 
 router.get('/fracRepCompOrder', function(req, res, next) {
   res.render('fracRepCompOrder', {title:"Fractions Representing Comparing Ordering"});

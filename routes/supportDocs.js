@@ -57,5 +57,9 @@ router.get('/waysWeUseFrac', function(req, res, next) {
   res.render('waysWeUseFrac', {title:"Ways We Use Fractions"});
 });
 
+router.get('/RecNumLinesCircles', function(req, res, next) {
+  res.render('RecNumLinesCircles', {title:"Rectangles, Number Lines and Circles, Oh My!"});
+});
+
 
 module.exports = router;
