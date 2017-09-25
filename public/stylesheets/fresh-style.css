@@ -336,11 +336,9 @@ iframe {
     text-align: center;
     margin-bottom: 10px;
 }
-.gen-pdf {
-    /* position: absolute; */
-    /* top: 20px;
-    right: 20px; */
-    /* right: 0px; */
+.gen-pdf-container {
+    display: flex;
+    justify-content: flex-end;
 }
 .gen-pdf {
     width: 124px;
@@ -524,6 +522,9 @@ iframe {
 } */
 .green-unit-grid .thumbnail {
     min-height: 320px;
+}
+.blue-unit-grid .thumbnail {
+    min-height: 340px;
 }
 .panel-body img {
     max-width: 100%;
