@@ -21,8 +21,12 @@ router.get('/fracResearchFindings', function(req, res, next) {
   res.render('fracResearchFindings', {title:"Fractions Research Findings"});
 });
 
-router.get('/fracResearchSum', function(req, res, next) {
-  res.render('fracResearchSum', {title:"Fractions Research Summary"});
+router.get('/fracResearchSum2015', function(req, res, next) {
+  res.render('fracResearchSum2015', {title:"Fractions Research Summary"});
+});
+
+router.get('/fracResearchSum2017', function(req, res, next) {
+  res.render('fracResearchSum2017', {title:"Fractions Research Summary"});
 });
 
 router.get('/fracTenLess', function(req, res, next) {
