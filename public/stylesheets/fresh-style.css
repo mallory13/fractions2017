@@ -655,6 +655,12 @@ table th {
 .section-border-bottom-none {
     border-bottom:0px !important;
 }
+.section-border-top-none {
+    border-top:0px !important;
+}
+.background-color-white {
+    background-color: white;
+}
 
 /** Title colors **/
 .title-dark {
@@ -810,4 +816,9 @@ table th {
 }
 .display-flex {
     display: flex;
+}
+
+/* Give more padding to the table on /rep file */
+.pdf-page-6 table td {
+    padding: 20px
 }
