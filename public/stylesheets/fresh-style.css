@@ -829,3 +829,24 @@ table th {
 .pdf-page-6 table td {
     padding: 20px
 }
+
+/* Style for the FRACTIONS on the pages */
+span.frac {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+  }
+  span.frac > sup, span.frac > sub {
+    display: block;
+    font: inherit;
+    padding: 0 0.3em;
+  }
+  span.frac > sup {border-bottom: 0.08em solid; top: -.1em;}
+  span.frac > sub {bottom: 0.15em;}
+  span.frac > span {display: none;}
+  abbr.abbr-frac {padding-bottom: 12px;}
+
+  /*removing lines from fractions*/
+  abbr[data-original-title], abbr[title]{
+      border-bottom:none !important;
+  }
