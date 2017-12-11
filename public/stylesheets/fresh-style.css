@@ -7,7 +7,8 @@
 
 /*body styling*/
 body {
-    background-color: #E2EEFA;
+    /* background-color: #E2EEFA; */
+    background-color: white;
     color: #222;
     font-size: 1.5em;
     font-family: 'Lato', 'Georgia', 'Times New Roman', Times, serif;
@@ -35,7 +36,8 @@ body {
 
 /*set background colours*/
 .background-purple{
-    background-color:#724199;
+    /* background-color:#724199; */
+    background-color:#888888; /*new background color for header*/
 }
 
 /*styling top nav bar buttons and active links*/
@@ -47,7 +49,8 @@ body {
     background-image:none !important;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover{
-    background-color:#5a317a !important;
+    /* background-color:#5a317a !important; */
+    background-color:#888888 !important;
 }
 .navbar{
     margin-bottom:0 !important;
@@ -56,28 +59,33 @@ body {
     border:none !important;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
-    background-color:#724199 !important;
+    /* background-color:#724199 !important; */
+    background-color:#888888 !important;
 }
 .navbar-default .navbar-toggle .icon-bar{
     background-color:white;
 }
 .navbar-default .navbar-toggle{
     border:none;
-    background-color:#5a317a;
+    /* background-color:#5a317a; */
+    background-color:#888888;
     border-radius:0;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
-    background-color:#5a317a !important;
+    /* background-color:#5a317a !important; */
+    background-color:#888888 !important;
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a{
     color:white;
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus{
     color:white !important;
-    background-color:#5a317a !important;
+    /* background-color:#5a317a !important; */
+    background-color:#888888 !important;
 }
 .open > .dropdown-menu{
-    background-color:#724199;
+    /* background-color:#724199; */
+    background-color:#888888 !important;
     color:white;
 }
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
@@ -179,12 +187,17 @@ footer{
     height: auto;
     padding: 1%;
     margin: 0 auto;
-    background-color: #82BC00;
+    /* background-color: #82BC00; */
+    background-color:#888888;
     text-align: center;
     position: relative;
 }
 footer a{
-    color:#f3f3f3;
+    /* color:#f3f3f3; */
+    color: white;
+}
+footer a:hover {
+    color: #c3c3c3;
 }
 footer p{
     margin-bottom:0;
@@ -209,8 +222,8 @@ footer p{
     min-height: 320px;
     border: 1px solid #777;
 }
-.thumbnail:hover{
-    background-color:lightgrey;
+.thumbnail a:hover{
+    text-decoration: underline !important;
 }
 .thumbnail img {
     height: auto;
@@ -223,7 +236,8 @@ footer p{
 }
 .thumbnail {
     display: block;
-    padding: 4px;
+    width: 100%;
+    padding: 8px;
     margin-bottom: 20px;
     line-height: 1.42857143;
     background-color: #fff;
@@ -239,6 +253,15 @@ footer p{
 .thumbnail h2, .thumbnail h3 {
     color: #724199;
     font-size: 1.3em;
+}
+.thumbnail .unit a {
+    color:#82BC00;
+}
+.thumbnail .comp a {
+    color:#00C1DE;
+}
+.thumbnail .op a {
+    color:#FF6B00;
 }
 .thumbnail-special {
     border-radius: 35px;
@@ -300,7 +323,7 @@ iframe {
     -webkit-box-shadow: 0px 6px 15px 0px rgba(50, 50, 50, 0.7);
     -moz-box-shadow: 0px 6px 15px 0px rgba(50, 50, 50, 0.7);
     box-shadow: 0px 6px 15px 0px rgba(50, 50, 50, 0.7);
-    max-width: 1080px;
+    /* max-width: 1080px; */
     padding: 30px 40px;
     position: relative;
     margin-bottom:25px;
@@ -845,8 +868,80 @@ span.frac {
   span.frac > sub {bottom: 0.15em;}
   span.frac > span {display: none;}
   abbr.abbr-frac {padding-bottom: 12px;}
+  abbr.abbr-frac-comp {padding-bottom: 23px;}
+  abbr.abbr-frac-double-comp {padding-bottom: 30px;}
 
-  /*removing lines from fractions*/
-  abbr[data-original-title], abbr[title]{
-      border-bottom:none !important;
+  /* Classroom Resources List */
+  .classrom-resources-list {
+      display: flex;
+      flex-wrap: wrap;
   }
+
+  /* Shapes for the UNIT, COMP and OP on the Fractions Learning Pathway */
+  #triangle-topleft {
+	width: 0;
+	height: 0;
+	border-top: 80px solid #82BC00;
+	border-right: 30px solid transparent;
+}
+
+#triangle-bottomright {
+	width: 0;
+	height: 0;
+	border-bottom: 80px solid #82BC00;
+	border-left: 30px solid transparent;
+}
+
+#rectangle {
+	width: 200px;
+	height: 80px;
+	background: #82BC00;
+}
+
+.rectangle-blue {
+    background: #00C1DE !important;
+}
+.triangle-bottomright-blue {
+    border-bottom-color: #00C1DE !important;
+}
+.triangle-topleft-blue {
+    border-top-color: #00C1DE !important;
+}
+
+.rectangle-orange {
+    background: #FF6B00 !important;
+}
+.triangle-bottomright-orange {
+    border-bottom-color: #FF6B00 !important;
+}
+.triangle-topleft-orange {
+    border-top-color: #FF6B00 !important;
+}
+
+/* Learning PathWays */
+.learningPathWays {
+    padding-top: 25px;
+}
+
+.learningPathWays h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+/* Learning Pathways Title */
+.learningPathWays-title p {
+    color: white;
+    font-weight: 100;
+    margin: 0 auto;
+    align-self: center;
+    font-size: 1.3em;
+}
+
+.learningPathWays-title h1 {
+    text-align: left;
+    font-size: 2em;
+}
+
+.learningPathWays-title figure {
+    text-align: right;
+}
