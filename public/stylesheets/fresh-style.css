@@ -15,6 +15,17 @@ body {
     text-decoration: none;
 }
 
+/*remove all purple from headings*/
+h1,h2,h3{
+    color:black !important;
+}
+
+/*fix message box*/
+textarea{
+    overflow:hidden;
+}
+
+
 /* standard page layout */
 .standard-page-layout {
     max-width: 1080px;
@@ -129,7 +140,8 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
 h1{
     text-align: center;
     font-size: 3em;
-    color: #724199;
+    /* color: #724199; */
+    color: #000;
     font-weight: bold;
 }
 h3 {
@@ -599,7 +611,7 @@ background-color:grey !important;
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: #724199; /* Set a background color */
+    background-color: black; /* Set a background color */
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 5px 15px; /* Some padding */
@@ -944,4 +956,13 @@ span.frac {
 
 .learningPathWays-title figure {
     text-align: right;
+}
+
+.tab-pane {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.research-list-tab {
+    padding: 0px 15px 15px 15px;
 }
