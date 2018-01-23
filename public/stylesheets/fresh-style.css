@@ -146,11 +146,13 @@ h1{
 }
 h3 {
     font-size: 2em;
-    color: #724199;
+    /*color: #724199;*/
+    color:#000;
     font-weight: bold;
 }
 h4, h5 {
-    color: #724199;
+    /*color: #724199;*/
+    color:#000;
     font-size: 16px;
     font-weight: bold;
 }
@@ -191,7 +193,8 @@ a:hover{
     text-align: center;
 }
 .pathway:hover, .linkBubble:hover{
-    border-color:#724199;
+    /*border-color:#724199;*/
+    border-color:#000;
 }
 
 /*footer styling*/
@@ -263,7 +266,8 @@ footer p{
     font-size: 1.1em;
 }
 .thumbnail h2, .thumbnail h3 {
-    color: #724199;
+    color:#000;
+    /*color: #724199;*/
     font-size: 1.3em;
 }
 .thumbnail .unit a {
@@ -965,4 +969,28 @@ span.frac {
 
 .research-list-tab {
     padding: 0px 15px 15px 15px;
+}
+
+/* Icons Tabs for Pathway Tasks */
+#icons-tabs p {
+    text-align: center;
+}
+#icons-tabs li {
+    margin: 0px;
+}
+#icons-tabs li a {
+    padding-bottom: 0px;
+}
+#icons-tabs li.active a {
+    background-color: #ddd;
+} 
+.icons-tabs-section .tab-content {
+    border: 1px solid #ddd;
+    border-top: none;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F4F4F4), to(#ccc));
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.icons-tabs-section {
+    padding-top: 25px;
 }

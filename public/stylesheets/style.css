@@ -58,7 +58,8 @@ main {
     margin-top: 80px;
 }
 .pathway:hover {
-    border: 2px solid #724199;
+    border:2px solid #000;
+    /*border: 2px solid #724199;*/
 }
 .linkBubble {
     margin: 20px auto;
@@ -72,7 +73,7 @@ main {
     color: #222;
 }
 .linkBubble:hover {
-    border: 2px solid #724199;
+    border: 2px solid #000;
 }
 form {
     color: #333;
@@ -89,12 +90,12 @@ h2 {
 }
 h3 {
     font-size: 2em;
-    color: #724199;
+    color: #000;
     font-weight: bold;
 }
 h4,
 h5 {
-    color: #724199;
+    color: #000;
     font-size: 16px;
     font-weight: bold;
 }
@@ -102,12 +103,12 @@ h5 {
     width: 100%;
 }
 a:hover {
-    color: #724199;
-    border-bottom: 2px solid #724199;
+    color: #000;
+    border-bottom: 2px solid #000;
     text-decoration: none;
 }
 #mainNav a:hover {
-    color: #724199;
+    color: #000;
     text-decoration: none;
     border: 2px solid #00DFDE;
 }
@@ -127,7 +128,7 @@ a:active {} .thumbnail {
 }
 .thumbnail h2,
 .thumbnail h3 {
-    color: #724199;
+    color: #000;
     font-size: 1.3em;
 }
 .thumbnail:hover {
@@ -183,7 +184,7 @@ div.nav-container-bigbox {
 }
 div.nav-box-1 {
     width: 100%;
-    background-color: #724199;
+    background-color: #000;
 }
 div.nav-box-2 {
     width: 100%;
@@ -236,14 +237,14 @@ div.gsc-input-box {
     margin-bottom: 0px;
     top: 0;
     z-index: 1000;
-    background: #724199;
-    border-color: #724199 !important;
+    background: #000;
+    border-color: #000 !important;
 }
 .navbar-header, .navbar-header ul {
     width: 100%;
 }
 .navbar-inverse {
-    background-image: #724199 !important;
+    background-image: #000 !important;
 }
 /*.breadcrumb,*/
 main {
@@ -761,7 +762,7 @@ table td {
     margin: 10px 0 20px 0;
 }
 .panel-body a {
-    color: #724199;
+    color: #000;
 }
 .panel-body table {
     background: #fff;
@@ -917,7 +918,7 @@ table td {
         width: 100%;
         height: 80px;
         /* top: 0; */
-        background: #724199;
+        background: #000;
     }
     .gen-pdf {
         display: none;
@@ -961,7 +962,7 @@ table td {
     }
     .thumbnail h2,
     .thumbnail h3 {
-        color: #724199;
+        color: #000;
         font-size: 1em;
     }
     #contactForm {
