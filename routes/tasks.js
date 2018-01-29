@@ -387,8 +387,8 @@ router.get('/equivalencyComparisonsImplementation', function(req, res, next) {
   res.render('equivalencyComparisonsImplementation', {title:"Comp A Equivalency Comparisons - Teacher Notes"});
 });
 
-router.get('/comparingFractionsNumeratorsDenominatorsTeacherNotes', function(req, res, next) {
-  res.render('comparingFractionsNumeratorsDenominatorsTeacherNotes', {title:"Comp D Comparing Fractions with Like Numerators or Like Denominators - Teacher Notes"});
+router.get('/comparingFractionsNumeratorsDenominatorsTask', function(req, res, next) {
+  res.render('comparingFractionsNumeratorsDenominatorsTask', {title:"Comp D Comparing Fractions with Like Numerators or Like Denominators"});
 }); 
 
 module.exports = router;

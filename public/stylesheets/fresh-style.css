@@ -994,3 +994,8 @@ span.frac {
 .icons-tabs-section {
     padding-top: 25px;
 }
+
+/* Key Questions Title indentation */
+.title-indentation {
+    margin-left:55px;
+}
