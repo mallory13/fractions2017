@@ -233,7 +233,6 @@ footer p{
 .thumbnail {
     background-color: #eee;
     text-align: center;
-    /* min-height: 270px; */
     min-height: 320px;
     border: 1px solid #777;
 }
@@ -279,6 +278,9 @@ footer p{
 .thumbnail .op a {
     color:#FF6B00;
 }
+.thumbnail a {
+    color: black;
+}
 .thumbnail-special {
     border-radius: 35px;
     padding: 15px;
@@ -292,9 +294,14 @@ footer p{
 .thumbnail {
     background-color: #eee;
     text-align: center;
-    /* min-height: 270px; */
     min-height: 320px;
     border: 1px solid #777;
+}
+.thumbnail-no-tasks {
+    background-color: #eee;
+    text-align: center;
+    border: 1px solid #777;
+    margin-bottom: 20px;
 }
 .green {
     background-color: #82BC00;
@@ -998,4 +1005,49 @@ span.frac {
 /* Key Questions Title indentation */
 .title-indentation {
     margin-left:55px;
+}
+
+/* Curriculum Connections Table */
+.table-curriculum-connections {
+    border: none !important;
+}
+.table-curriculum-connections tbody td {
+    border: 1px dotted black;
+}
+
+.table-curriculum-connections tr th {
+    color: #FFF;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.table-curriculum-connections tbody tr td:first-child {
+    text-align: center;
+}
+
+.unit tr th{
+    background: #82BC00;  
+}
+.comp tr th {
+    background: #00C1DE;
+}
+.op tr th {
+    background: #FF6B00;
+}
+
+/* Research Page */
+.research-list-tab div h5 {
+    margin: 0px;
+}
+
+.research-list-tab div p:nth-child(2) {
+    margin-left: 15px;
+}
+
+.margin-bottom-research {
+    margin-bottom: 10px;
+}
+.title-reserach {
+    font-size: 18px;
 }
