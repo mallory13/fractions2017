@@ -1051,3 +1051,7 @@ span.frac {
 .title-reserach {
     font-size: 18px;
 }
+.container-digital-paper {
+    width: 90%;
+    margin: 0 auto;
+}

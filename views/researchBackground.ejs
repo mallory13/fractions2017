@@ -28,11 +28,31 @@
       </section>
 
       <section class="row" style="float:right; padding: 0px 20px 10px 20px;">
-            <a href="/digitalPaper">
-                  <figure>
-                        <img src="/images/digitalPaper-small.jpg" alt="Digital Paper" class="img-responsive margin-auto" />
-                  </figure>
-            </a>
+            <figure>
+                  <!-- <img src="/images/digitalPaper-small.jpg" alt="Digital Paper" class="img-responsive margin-auto" /> -->
+                  <img src="/images/digitalPaper.png" id="map-image" style="width: 490px; max-width: 100%; height: auto;" alt="Digital Map" usemap="#map" />
+                  <map name="map">
+                  <!-- Student Learning -->
+                  <area shape="poly" coords="109, 125, 194, 132, 192, 252, 316, 250, 315, 390, 113, 388" href="studentLearn" alt="Student Learning"/>
+                  <!-- Instructional Decisions -->
+                  <area shape="poly" coords="315, 248, 452, 249, 451, 49, 186, 50, 191, 129, 315, 125" href="instrDec" alt="Instructional Decisions"/>
+                  <!-- Fractions Representing Comparing Ordering -->
+                  <area shape="poly" coords="191, 128, 192, 250, 314, 250, 313, 126" href="fracRepCompOrder" alt="Fractions Representing Comparing Ordering"/>
+                  <!-- Teacher Professional Learning -->
+                  <area shape="poly" coords="9, 202, 7, 5, 265, 6, 266, 51, 189, 50, 190, 129, 111, 128, 112, 204" href="teachProLearn" alt=""/>
+                  </map>
+                  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+                  <script src="imageMapResizer.min.js"></script>
+                  <script>$(document).ready(function(e){$("map").imageMapResize();});</script>
+                  <p style="margin-left: 20px;">
+                        <a href="/research">Resources</a>
+                        <ul>
+                              <li style="margin-bottom: 0px;">Research and Supports</li>
+                              <li style="margin-bottom: 0px;">Lessons</li>
+                              <li style="margin-bottom: 0px;">Transcripts</li>
+                        </ul>
+                  </p>
+            </figure>
       </section>
 
       <section class="row">
