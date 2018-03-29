@@ -211,7 +211,7 @@ input.gsc-search-button {
     padding: 10px !important;
     height: 30px !important;
     width: 30px !important;
-    
+
 }
 input.gsc-input {
     padding: 5px !important;
@@ -486,7 +486,7 @@ table td {
     margin-bottom: 10px;
 }
 .key-title h4 {
-    
+
     display: inline-block;
     margin-top: 27px;
     padding: 11px 20px;
@@ -605,7 +605,7 @@ table td {
     background: #f4ecf3;
     border: 3px dotted #7cc731;
     padding: 10px 20px;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
 .two-col-list li {
     width: 49%;
@@ -1018,3 +1018,11 @@ table td {
     display: inline-block;
     font-size: 20px;
 }
+/*
+.long-link {
+  max-width:300px !important;
+  display:block;
+  overflow-wrap:break-word;
+  word-wrap:break-word;
+}
+*/

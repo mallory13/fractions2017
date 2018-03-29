@@ -529,3 +529,93 @@ border: 4px solid #FF871F;
         font-size: 16px;
     }
 }
+
+/* Fractions Pathway Part 2 */
+
+.opMultandDiv {
+    background-color: #633B86;
+    height: 690px;
+    vertical-align: top;
+    position: relative;
+}
+.opMultandDiv ol {
+    color: white;
+}
+.opMultandDiv .diamond {
+    border: 3px solid #633B86;
+}
+.opMultandDiv .diamond:hover {
+    border: 6px solid #633B86;
+}
+.opMultandDiv h5 {
+    color: #633B86;
+}
+.newPathway div.teste {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    height: 100px;
+}
+.opMultandDiv .diamond a div.teste2 {
+    color: #000;
+    -webkit-transform: skew(25deg) rotate(15deg);
+    -moz-transform: skew(25deg) rotate(15deg);
+    -o-transform: skew(25deg) rotate(15deg);
+    position: absolute;
+    top: 26px;
+    left: 16px;
+    text-align: center;
+    width: 140px;
+    font-size: 12px;
+}
+
+/* Diamond Positions */
+#opF{
+    top: 450px;
+    left: 105px;
+}
+#opG{
+    top: 300px;
+    left: 133px;
+}
+#opH{
+    top: 150px;
+    left: 163px;
+}
+#opI{
+    top: 450px;
+    left: 315px;
+}
+#opJ{
+    top: 300px;
+    left: 343px;
+}
+#opK{
+    top: 150px;
+    left: 373px;
+}
+#opL{
+    top: 450px;
+    left: 525px;
+}
+#opM{
+    top: 300px;
+    left: 553px;
+}
+#opN{
+    top: 450px;
+    left: 725px;
+}
+#opO{
+    top: 300px;
+    left: 763px;
+}
+#opP{
+    top: 450px;
+    left: 935px;
+}
+#opQ{
+    top: 300px;
+    left: 973px;
+}
