@@ -175,7 +175,7 @@ a:hover{
     height:100%;
     padding-left:15px;
     padding-right:15px;
-} 
+}
 .linkBubble a{
     margin:5px 0 !important;
 }
@@ -748,7 +748,7 @@ table th {
     background: #f4ecf3;
     border: 3px dotted #7cc731;
     padding: 10px 20px;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
 .purple-box {
     border: 2px solid #9468ba;
@@ -762,7 +762,7 @@ table th {
     margin-bottom: 10px;
 }
 .key-title h4 {
-    
+
     display: inline-block;
     margin-top: 27px;
     padding: 11px 20px;
@@ -990,7 +990,7 @@ span.frac {
 }
 #icons-tabs li.active a {
     background-color: #ddd;
-} 
+}
 .icons-tabs-section .tab-content {
     border: 1px solid #ddd;
     border-top: none;
@@ -1027,7 +1027,7 @@ span.frac {
 }
 
 .unit tr th{
-    background: #82BC00;  
+    background: #82BC00;
 }
 .comp tr th {
     background: #00C1DE;
@@ -1054,4 +1054,22 @@ span.frac {
 .container-digital-paper {
     width: 90%;
     margin: 0 auto;
+}
+
+.numbers-table{
+  width:100%;
+  border:2px solid black
+}
+
+.numbers-table tr td{
+  width:25%;
+  height:200px;
+  border:2px solid black
+}
+.numbers-table td{
+  vertical-align:middle;
+  text-align:center;
+  font-size:38px;
+  font-weight:500;
+  color:black;
 }
