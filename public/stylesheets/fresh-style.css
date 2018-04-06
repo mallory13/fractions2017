@@ -294,7 +294,7 @@ footer p{
 .thumbnail {
     background-color: #eee;
     text-align: center;
-    min-height: 320px;
+    min-height: 150px;
     border: 1px solid #777;
 }
 .thumbnail-no-tasks {

@@ -389,102 +389,106 @@ router.get('/equivalencyComparisonsImplementation', function(req, res, next) {
 
 router.get('/comparingFractionsNumeratorsDenominatorsTask', function(req, res, next) {
   res.render('comparingFractionsNumeratorsDenominatorsTask', {title:"Comp D Comparing Fractions with Like Numerators or Like Denominators"});
-}); 
+});
 
 router.get('/flickGame', function(req, res, next) {
   res.render('flickGame', {title:"Op D The Flick Game"});
-}); 
+});
 
 router.get('/livingNumberLine', function(req, res, next) {
   res.render('livingNumberLine', {title:"Unit A Living Number Line"});
-}); 
+});
 
 router.get('/trainGame', function(req, res, next) {
   res.render('trainGame', {title:"OP C Train Game"});
-}); 
+});
 
 router.get('/equalsGame', function(req, res, next) {
   res.render('equalsGame', {title:"OP E Equals Game"});
-}); 
+});
 
 router.get('/grabBag', function(req, res, next) {
   res.render('grabBag', {title:"OP B Grab Bag"});
-}); 
+});
 
 router.get('/unitRods', function(req, res, next) {
   res.render('unitRods', {title:"Unit E Unit Rods"});
-}); 
+});
 
 router.get('/ribbonTask', function(req, res, next) {
   res.render('ribbonTask', {title:"Unit C Ribbon Task"});
-}); 
+});
 
 router.get('/creatingSums', function(req, res, next) {
   res.render('creatingSums', {title:"OP E Creating Sums Close to One"});
-}); 
+});
 
 router.get('/mixedNumbers', function(req, res, next) {
   res.render('mixedNumbers', {title:"OP E Making Mixed Numbers"});
-}); 
+});
+
+router.get('/ComposingandDecomposingOneSevenEights', function(req, res, next) {
+  res.render('ComposingandDecomposingOneSevenEights', {title:"Composing and Decomposing 1-7/8"});
+});
 
 router.get('/buildingOperations', function(req, res, next) {
   res.render('buildingOperations', {title:"OP E Building to Operations with Relational Rods"});
-}); 
+});
 
 // Link to Addtional Prompts and Curriculum Connections (They use the card layout from tasks but they are not tasks)
 // UNIT A
 router.get('/additionalPromptsUnitA', function(req, res, next) {
   res.render('additionalPromptsUnitA', {title:"Unit A Additional Prompts"});
-}); 
+});
 
 router.get('/curriculumConnectionsUnitA', function(req, res, next) {
   res.render('curriculumConnectionsUnitA', {title:"Unit A Curriculum Connections"});
-}); 
+});
 
 //UNIT B
 router.get('/additionalPromptsUnitB', function(req, res, next) {
   res.render('additionalPromptsUnitB', {title:"Unit B Additional Prompts"});
-}); 
+});
 
 router.get('/curriculumConnectionsUnitB', function(req, res, next) {
   res.render('curriculumConnectionsUnitB', {title:"Unit B Curriculum Connections"});
-}); 
+});
 
 //UNIT C
 router.get('/additionalPromptsUnitC', function(req, res, next) {
   res.render('additionalPromptsUnitC', {title:"Unit C Additional Prompts"});
-}); 
+});
 
 router.get('/curriculumConnectionsUnitC', function(req, res, next) {
   res.render('curriculumConnectionsUnitC', {title:"Unit C Curriculum Connections"});
-}); 
+});
 
 //UNIT D
 router.get('/additionalPromptsUnitD', function(req, res, next) {
   res.render('additionalPromptsUnitD', {title:"Unit D Additional Prompts"});
-}); 
+});
 
 router.get('/curriculumConnectionsUnitD', function(req, res, next) {
   res.render('curriculumConnectionsUnitD', {title:"Unit D Curriculum Connections"});
-}); 
+});
 
 //UNIT E
 router.get('/additionalPromptsUnitE', function(req, res, next) {
   res.render('additionalPromptsUnitE', {title:"Unit E Additional Prompts"});
-}); 
+});
 
 router.get('/curriculumConnectionsUnitE', function(req, res, next) {
   res.render('curriculumConnectionsUnitE', {title:"Unit E Curriculum Connections"});
-}); 
+});
 
 //UNIT F
 router.get('/additionalPromptsUnitF', function(req, res, next) {
   res.render('additionalPromptsUnitF', {title:"Unit F Additional Prompts"});
-}); 
+});
 
 router.get('/curriculumConnectionsUnitF', function(req, res, next) {
   res.render('curriculumConnectionsUnitF', {title:"Unit F Curriculum Connections"});
-}); 
+});
 
 // COMP A
 router.get('/additionalPromptsCompA', function(req, res, next) {

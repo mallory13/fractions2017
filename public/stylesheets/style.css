@@ -1018,6 +1018,11 @@ table td {
     display: inline-block;
     font-size: 20px;
 }
+/*fractions on a number line*/
+.no-borders{
+  border:0px solid white !important;
+  width:100%;
+}
 /*
 .long-link {
   max-width:300px !important;
