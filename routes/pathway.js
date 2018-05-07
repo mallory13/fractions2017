@@ -67,6 +67,56 @@ router.get('/opE', function(req, res, next) {
   res.render('opE', {myName: "Op E", title:"Op E"});
 });
 
+/*new purple pathways**/
+
+router.get('/opF', function(req, res, next) {
+  res.render('opF', {myName: "Op F", title:"Op F"});
+});
+
+router.get('/opG', function(req, res, next) {
+  res.render('opG', {myName: "Op G", title:"Op G"});
+});
+
+router.get('/opH', function(req, res, next) {
+  res.render('opH', {myName: "Op H", title:"Op H"});
+});
+
+router.get('/opI', function(req, res, next) {
+  res.render('opI', {myName: "Op I", title:"Op I"});
+});
+
+router.get('/opJ', function(req, res, next) {
+  res.render('opJ', {myName: "Op J", title:"Op J"});
+});
+
+router.get('/opK', function(req, res, next) {
+  res.render('opK', {myName: "Op K", title:"Op K"});
+});
+
+router.get('/opL', function(req, res, next) {
+  res.render('opL', {myName: "Op L", title:"Op L"});
+});
+
+router.get('/opM', function(req, res, next) {
+  res.render('opM', {myName: "Op M", title:"Op M"});
+});
+
+router.get('/opN', function(req, res, next) {
+  res.render('opN', {myName: "Op N", title:"Op N"});
+});
+
+router.get('/opO', function(req, res, next) {
+  res.render('opO', {myName: "Op O", title:"Op O"});
+});
+
+router.get('/opP', function(req, res, next) {
+  res.render('opP', {myName: "Op P", title:"Op P"});
+});
+
+router.get('/opQ', function(req, res, next) {
+  res.render('opQ', {myName: "Op Q", title:"Op Q"});
+});
+
 // get unit pages
 router.get('/unit', function(req, res, next) {
   res.render('unit', {myName: "Unit Fractions", title:"Unit Fractions"});

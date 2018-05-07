@@ -941,6 +941,16 @@ span.frac {
     border-top-color: #FF6B00 !important;
 }
 
+.rectangle-purple {
+    background: #633B86 !important;
+}
+.triangle-bottomright-purple {
+    border-bottom-color: #633B86 !important;
+}
+.triangle-topleft-purple {
+    border-top-color: #633B86 !important;
+}
+
 /* Learning PathWays */
 .learningPathWays {
     padding-top: 25px;
