@@ -1045,6 +1045,9 @@ span.frac {
 .op tr th {
     background: #FF6B00;
 }
+.op-pur tr th{
+    background:#633B86;
+}
 
 /* Research Page */
 .research-list-tab div h5 {
@@ -1083,3 +1086,5 @@ span.frac {
   font-weight:500;
   color:black;
 }
+
+/*new fractions changes*/

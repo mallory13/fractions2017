@@ -539,7 +539,6 @@ router.get('/curriculumConnectionsCompE', function(req, res, next) {
 router.get('/additionalPromptsOpA', function(req, res, next) {
   res.render('additionalPromptsOpA', {title:"Op A Additional Prompts"});
 });
-
 router.get('/curriculumConnectionsOpA', function(req, res, next) {
   res.render('curriculumConnectionsOpA', {title:"Op A Curriculum Connections"});
 });
@@ -548,7 +547,6 @@ router.get('/curriculumConnectionsOpA', function(req, res, next) {
 router.get('/additionalPromptsOpB', function(req, res, next) {
   res.render('additionalPromptsOpB', {title:"Op B Additional Prompts"});
 });
-
 router.get('/curriculumConnectionsOpB', function(req, res, next) {
   res.render('curriculumConnectionsOpB', {title:"Op B Curriculum Connections"});
 });
@@ -557,7 +555,6 @@ router.get('/curriculumConnectionsOpB', function(req, res, next) {
 router.get('/additionalPromptsOpC', function(req, res, next) {
   res.render('additionalPromptsOpC', {title:"Op C Additional Prompts"});
 });
-
 router.get('/curriculumConnectionsOpC', function(req, res, next) {
   res.render('curriculumConnectionsOpC', {title:"Op C Curriculum Connections"});
 });
@@ -566,18 +563,112 @@ router.get('/curriculumConnectionsOpC', function(req, res, next) {
 router.get('/additionalPromptsOpD', function(req, res, next) {
   res.render('additionalPromptsOpD', {title:"Op D Additional Prompts"});
 });
-
 router.get('/curriculumConnectionsOpD', function(req, res, next) {
   res.render('curriculumConnectionsOpD', {title:"Op D Curriculum Connections"});
 });
 
 // OP E
 router.get('/additionalPromptsOpE', function(req, res, next) {
-  res.render('additionalPromptsOpE', {title:"Op D Additional Prompts"});
+  res.render('additionalPromptsOpE', {title:"Op E Additional Prompts"});
 });
-
 router.get('/curriculumConnectionsOpE', function(req, res, next) {
   res.render('curriculumConnectionsOpE', {title:"Op E Curriculum Connections"});
+});
+
+// OP F
+router.get('/additionalPromptsOpF', function(req, res, next) {
+  res.render('additionalPromptsOpF', {title:"Op F Additional Prompts"});
+});
+router.get('/curriculumConnectionsOpF', function(req, res, next) {
+  res.render('curriculumConnectionsOpF', {title:"Op F Curriculum Connections"});
+});
+
+// OP G
+router.get('/additionalPromptsOpG', function(req, res, next) {
+  res.render('additionalPromptsOpG', {title:"Op G Additional Prompts"});
+});
+router.get('/curriculumConnectionsOpG', function(req, res, next) {
+  res.render('curriculumConnectionsOpG', {title:"Op G Curriculum Connections"});
+});
+
+// OP H
+router.get('/additionalPromptsOpH', function(req, res, next) {
+  res.render('additionalPromptsOpH', {title:"Op H Additional Prompts"});
+});
+router.get('/curriculumConnectionsOpH', function(req, res, next) {
+  res.render('curriculumConnectionsOpH', {title:"Op H Curriculum Connections"});
+});
+
+// OP I
+router.get('/additionalPromptsOpI', function(req, res, next) {
+  res.render('additionalPromptsOpI', {title:"Op I Additional Prompts"});
+});
+router.get('/curriculumConnectionsOpI', function(req, res, next) {
+  res.render('curriculumConnectionsOpI', {title:"Op I Curriculum Connections"});
+});
+
+// OP J
+router.get('/additionalPromptsOpJ', function(req, res, next) {
+  res.render('additionalPromptsOpJ', {title:"Op J Additional Prompts"});
+});
+router.get('/curriculumConnectionsOpJ', function(req, res, next) {
+  res.render('curriculumConnectionsOpJ', {title:"Op J Curriculum Connections"});
+});
+
+// OP K
+router.get('/additionalPromptsOpK', function(req, res, next) {
+  res.render('additionalPromptsOpK', {title:"Op K Additional Prompts"});
+});
+router.get('/curriculumConnectionsOpK', function(req, res, next) {
+  res.render('curriculumConnectionsOpK', {title:"Op K Curriculum Connections"});
+});
+
+// OP L
+router.get('/additionalPromptsOpL', function(req, res, next) {
+  res.render('additionalPromptsOpL', {title:"Op L Additional Prompts"});
+});
+router.get('/curriculumConnectionsOpL', function(req, res, next) {
+  res.render('curriculumConnectionsOpL', {title:"Op L Curriculum Connections"});
+});
+
+// OP M
+router.get('/additionalPromptsOpM', function(req, res, next) {
+  res.render('additionalPromptsOpM', {title:"Op M Additional Prompts"});
+});
+router.get('/curriculumConnectionsOpM', function(req, res, next) {
+  res.render('curriculumConnectionsOpM', {title:"Op M Curriculum Connections"});
+});
+
+// OP N
+router.get('/additionalPromptsOpN', function(req, res, next) {
+  res.render('additionalPromptsOpN', {title:"Op N Additional Prompts"});
+});
+router.get('/curriculumConnectionsOpN', function(req, res, next) {
+  res.render('curriculumConnectionsOpN', {title:"Op N Curriculum Connections"});
+});
+
+// OP O
+router.get('/additionalPromptsOpO', function(req, res, next) {
+  res.render('additionalPromptsOpO', {title:"Op O Additional Prompts"});
+});
+router.get('/curriculumConnectionsOpO', function(req, res, next) {
+  res.render('curriculumConnectionsOpO', {title:"Op O Curriculum Connections"});
+});
+
+// OP P
+router.get('/additionalPromptsOpP', function(req, res, next) {
+  res.render('additionalPromptsOpP', {title:"Op P Additional Prompts"});
+});
+router.get('/curriculumConnectionsOpP', function(req, res, next) {
+  res.render('curriculumConnectionsOpP', {title:"Op P Curriculum Connections"});
+});
+
+// OP Q
+router.get('/additionalPromptsOpQ', function(req, res, next) {
+  res.render('additionalPromptsOpQ', {title:"Op Q Additional Prompts"});
+});
+router.get('/curriculumConnectionsOpQ', function(req, res, next) {
+  res.render('curriculumConnectionsOpQ', {title:"Op Q Curriculum Connections"});
 });
 
 module.exports = router;

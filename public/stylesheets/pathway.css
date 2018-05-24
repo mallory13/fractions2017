@@ -159,6 +159,7 @@ border: 4px solid #FF871F;
     padding: 8px 0;
     margin: 0;
     height: 60px;
+    background-color:#633B86;
 }
 .diamond {
     width: 180px;
@@ -533,7 +534,7 @@ border: 4px solid #FF871F;
 /* Fractions Pathway Part 2 */
 
 .opMultandDiv {
-    background-color: #633B86;
+    background-color: #674882;
     height: 690px;
     vertical-align: top;
     position: relative;
