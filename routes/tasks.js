@@ -423,6 +423,18 @@ router.get('/creatingSums', function(req, res, next) {
   res.render('creatingSums', {title:"OP E Creating Sums Close to One"});
 });
 
+router.get('/thePaintedDoor', function(req, res, next) {
+  res.render('thePaintedDoor', {title:"OP N The Painted Door"});
+});
+
+router.get('/bananaBreadBakeOff', function(req, res, next) {
+  res.render('bananaBreadBakeOff', {title:"OP G Banana Bread Bake Off"});
+});
+
+router.get('/chrisIceCreamCarton', function(req, res, next) {
+  res.render('chrisIceCreamCarton', {title:"OP L Chris' Ice Cream Carton"});
+});
+
 router.get('/mixedNumbers', function(req, res, next) {
   res.render('mixedNumbers', {title:"OP E Making Mixed Numbers"});
 });
