@@ -106,7 +106,7 @@ border: 4px solid #FF871F;
     height: 120%;
     background: #FF6B00;
     /*padding-top: -15%;*/
-    
+
     text-decoration: none;
     text-align: center;
     font-size: 0.75em;
@@ -118,7 +118,7 @@ border: 4px solid #FF871F;
     height: 110%;
     background: #00C1DE;
     /*padding-top: -15%;*/
-    
+
     text-decoration: none;
     text-align: center;
     font-size: 0.75em;
@@ -130,7 +130,7 @@ border: 4px solid #FF871F;
     height: 100%;
     background: #82BC00;
     /*padding-top: -15%;*/
-    
+
     text-decoration: none;
     text-align: center;
     font-size: 0.75em;
@@ -322,10 +322,10 @@ border: 4px solid #FF871F;
     top: 260px;
     left: 219px;
 }
-@media screen and (max-width: 1339px) {
+@media screen and (min-width:1261px) and (max-width: 1339px) {
     .diamond {
-        width: 150px;
-        height: 130px;
+        width: 180px;
+        height: 140px;
     }
     .diamond a span {
         top: 14px;
@@ -333,7 +333,7 @@ border: 4px solid #FF871F;
         width: 125px;
     }
 }
-@media screen and (max-width: 1280px) and (min-width: 1024px) {
+@media screen and (max-width: 1260px) and (min-width: 966px) {
     .newPathway {
         width: 960px;
         height: 640px;
@@ -353,9 +353,9 @@ border: 4px solid #FF871F;
     }
     .diamond a span {
         top: 14px;
-        left: 16px;
+        left: 12px;
         width: 110px;
-        line-height: 12px;
+        line-height:12px;
     }
     #unitA {
         top: 271px;
@@ -421,8 +421,56 @@ border: 4px solid #FF871F;
         top: 189px;
         left: 167px;
     }
+    #opF{
+        top: 550px !important;
+        left: 52px !important;
+    }
+    #opG{
+        top: 420px !important;
+        left: 75px !important;
+    }
+    #opH{
+        top: 290px !important;
+        left:103px !important;
+    }
+    #opI{
+        top: 510px !important;
+        left: 215px !important;
+    }
+    #opJ{
+        top: 380px !important;
+        left: 240px !important;
+    }
+    #opK{
+        top: 250px !important;
+        left: 265px !important;
+    }
+    #opL{
+        top: 470px !important;
+        left: 380px !important;
+    }
+    #opM{
+        top: 340px !important;
+        left: 405px !important;
+    }
+    #opN{
+        top: 430px !important;
+        left: 545px !important;
+    }
+    #opO{
+        top: 300px !important;
+        left: 570px !important;
+    }
+    #opP{
+        top: 390px !important;
+        left: 710px !important;
+    }
+    #opQ{
+        top: 260px !important;
+        left: 735px !important;
+    }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 965px) {
     .unitFractions,
     .comparingFractions,
     .operationsWithFractions {
@@ -484,58 +532,94 @@ border: 4px solid #FF871F;
         left: 375px;
     }
 }
-@media screen and (max-width: 479px) {
-    .unitFractions {
-        height: 935px;
-    }
-    .comparingFractions,
-    .operationsWithFractions {
-        height: 795px;
-    }
+@media screen and (max-width:911px) and (min-width:614px) {
+  .unitFractions, .comparingFractions, .operationsWithFractions{
+    height: 565px;
+  }
     #unitA,
     #compA,
     #opA {
-        top: 22px;
-        left: 32px;
+        top: 38px;
+        left: 48px;
     }
     #unitB,
     #compB,
     #opB {
-        top: 156px;
-        left: 32px;
+        top: 182px;
+        left: 48px;
     }
     #unitC,
     #compC,
     #opC {
-        top: 293px;
-        left: 32px;
+        top: 326px;
+        left: 48px;
     }
     #unitD,
     #compD,
-    #opE {
-        top: 428px;
-        left: 32px;
+    #opD {
+        top: 38px;
+        left: 290px;
     }
     #unitE,
     #compE,
-    #opD {
-        top: 564px;
-        left: 32px;
+    #opE {
+        top: 182px;
+        left: 290px;
     }
     #unitF {
-        top: 701px;
-        left: 32px;
-    }
-    .newPathway h4 {
-        font-size: 16px;
+        top: 326px;
+        left: 290px;
     }
 }
+@media screen and (max-width:614px) {
+  .unitFractions{
+    height: 995px;
+  }
+  .comparingFractions, .operationsWithFractions{
+    height:850px;
+  }
+  #unitA,
+  #compA,
+  #opA {
+      top: 38px;
+      left: 48px;
+  }
+  #unitB,
+  #compB,
+  #opB {
+      top: 182px;
+      left: 48px;
+  }
+  #unitC,
+  #compC,
+  #opC {
+      top: 326px;
+      left: 48px;
+  }
+  #unitD,
+  #compD,
+  #opD {
+      top: 470px;
+      left: 48px;
+  }
+  #unitE,
+  #compE,
+  #opE {
+      top: 614px;
+      left: 48px;
+  }
+  #unitF {
+      top: 758px;
+      left: 48px;
+  }
+}
+
 
 /* Fractions Pathway Part 2 */
 
 .opMultandDiv {
     background-color: #674882;
-    height: 690px;
+    height: 825px;
     vertical-align: top;
     position: relative;
 }
@@ -573,50 +657,570 @@ border: 4px solid #FF871F;
 
 /* Diamond Positions */
 #opF{
-    top: 450px;
-    left: 105px;
+    top: 590px;
+    left: 130px;
 }
 #opG{
-    top: 300px;
-    left: 133px;
+    top: 440px;
+    left: 155px;
 }
 #opH{
-    top: 150px;
-    left: 163px;
+    top: 290px;
+    left: 183px;
 }
 #opI{
-    top: 450px;
-    left: 315px;
+    top: 585px;
+    left: 335px;
 }
 #opJ{
-    top: 300px;
-    left: 343px;
+    top: 430px;
+    left: 365px;
 }
 #opK{
-    top: 150px;
-    left: 373px;
+    top: 280px;
+    left: 390px;
 }
 #opL{
-    top: 450px;
-    left: 525px;
+    top: 500px;
+    left: 550px;
 }
 #opM{
-    top: 300px;
-    left: 553px;
+    top: 340px;
+    left: 580px;
 }
 #opN{
-    top: 450px;
-    left: 725px;
+    top: 490px;
+    left: 755px;
 }
 #opO{
-    top: 300px;
-    left: 763px;
+    top: 330px;
+    left: 785px;
 }
 #opP{
-    top: 450px;
-    left: 935px;
+    top: 400px;
+    left: 980px;
 }
 #opQ{
-    top: 300px;
-    left: 973px;
+    top: 240px;
+    left: 1010px;
 }
+  @media (min width:1025px){
+    .purple .diamond{
+      height:140px;
+      width:180px;
+    }
+    .purple .diamond a span{
+      top:12px;
+      left:10px;
+      width:115px;
+      font-size:11px;
+    }
+
+    #opF{
+        top: 590px;
+        left: 130px;
+    }
+    #opG{
+        top: 440px;
+        left: 155px;
+    }
+    #opH{
+        top: 290px;
+        left: 183px;
+    }
+    #opI{
+        top: 545px;
+        left: 340px;
+    }
+    #opJ{
+        top: 390px;
+        left: 370px;
+    }
+    #opK{
+        top: 240px;
+        left: 395px;
+    }
+    #opL{
+        top: 500px;
+        left: 550px;
+    }
+    #opM{
+        top: 340px;
+        left: 580px;
+    }
+    #opN{
+        top: 450px;
+        left: 765px;
+    }
+    #opO{
+        top: 290px;
+        left: 795px;
+    }
+    #opP{
+        top: 400px;
+        left: 980px;
+    }
+    #opQ{
+        top: 240px;
+        left: 1010px;
+    }
+  }
+  @media only screen and (min-width:1000px) and (max-width:1024px){
+    .purple .diamond{
+      width:135px;
+      height:124PX;
+    }
+    .purple .diamond a span{
+      top:12px;
+      left:10px;
+      width:115px;
+      font-size:11px;
+    }
+
+    #opF{
+        top: 550px;
+        left: 52px;
+    }
+    #opG{
+        top: 420px;
+        left: 75px;
+    }
+    #opH{
+        top: 290px;
+        left:103px;
+    }
+    #opI{
+        top: 510px;
+        left: 215px;
+    }
+    #opJ{
+        top: 380px;
+        left: 240px;
+    }
+    #opK{
+        top: 250px;
+        left: 265px;
+    }
+    #opL{
+        top: 470px;
+        left: 380px;
+    }
+    #opM{
+        top: 340px;
+        left: 405px;
+    }
+    #opN{
+        top: 430px;
+        left: 545px;
+    }
+    #opO{
+        top: 300px;
+        left: 570px;
+    }
+    #opP{
+        top: 390px;
+        left: 710px;
+    }
+    #opQ{
+        top: 260px;
+        left: 735px;
+    }
+  }
+
+  @media only screen and (max-width:999px) and (min-width:880px){
+    .diamond a span{
+      top:13px;
+    }
+    .opMultandDiv{
+      height:1035px;
+    }
+    #opF{
+      top: 380px;
+      left: 113px;
+    }
+    #opG{
+      top:330px;
+      left: 320px;
+    }
+    #opH{
+      top:280px;
+      left:530px;
+    }
+    #opI{
+      top:520px;
+      left:85px;
+    }
+    #opJ{
+      top:470px;
+      left:295px;
+    }
+    #opK{
+      top:420px;
+      left:505px;
+    }
+    #opL{
+      top:660px;
+      left:60px;
+    }
+    #opM{
+      top:610px;
+      left:270px;
+    }
+    #opN{
+      top:560px;
+      left:480px;
+    }
+    #opO{
+      top:800px;
+      left:30px;
+    }
+    #opP{
+      top:750px;
+      left:240px;
+    }
+    #opQ{
+      top:700px;
+      left:450px;
+    }
+  }
+@media only screen and (max-width:879px) and (min-width:675px){
+  .diamond a span{
+    top:13px;
+  }
+  .opMultandDiv{
+    height:1405px;
+  }
+  #opF{
+    top: 370px;
+    left: 50px;
+  }
+  #opG{
+    top:360px;
+    left: 300px;
+  }
+  #opH{
+    top:520px;
+    left:50px;
+  }
+  #opI{
+    top:510px;
+    left:300px;
+  }
+  #opJ{
+    top:670px;
+    left:50px;
+  }
+  #opK{
+    top:660px;
+    left:300px;
+  }
+  #opL{
+    top:820px;
+    left:50px;
+  }
+  #opM{
+    top:810px;
+    left:300px;
+  }
+  #opN{
+    top:970px;
+    left:50px;
+  }
+  #opO{
+    top:960px;
+    left:300px;
+  }
+  #opP{
+    top:1120px;
+    left:50px;
+  }
+  #opQ{
+    top:1110px;
+    left:300px;
+  }
+}
+
+      @media only screen and (max-width:674px) and (min-width:641px){
+          .diamond a span{
+            top:14px;
+          }
+          .opMultandDiv{
+            height:2195px;
+          }
+          #opF{
+            top: 400px;
+            left: 50px;
+          }
+          #opG{
+            top:540px;
+            left:50px;
+          }
+          #opH{
+            top:680px;
+            left:50px;
+          }
+          #opI{
+            top:820px;
+            left:50px;
+          }
+          #opJ{
+            top:960px;
+            left:50px;
+          }
+          #opK{
+            top:1110px;
+            left:50px;
+          }
+          #opL{
+            top:1240px;
+            left:50px;
+          }
+          #opM{
+            top:1380px;
+            left:50px;
+          }
+          #opN{
+            top:1520px;
+            left:50px;
+          }
+          #opO{
+            top:1660px;
+            left:50px;
+          }
+          #opP{
+            top:1800px;
+            left:50px;
+          }
+          #opQ{
+            top:1940px;
+            left:50px;
+          }
+        }
+
+        @media only screen and (max-width:640px) and (min-width:555px){
+            .diamond a span{
+              top:14px;
+            }
+            .opMultandDiv{
+              height:2195px;
+            }
+            #opF{
+              top: 440px;
+              left: 50px;
+            }
+            #opG{
+              top:580px;
+              left:50px;
+            }
+            #opH{
+              top:720px;
+              left:50px;
+            }
+            #opI{
+              top:860px;
+              left:50px;
+            }
+            #opJ{
+              top:1000px;
+              left:50px;
+            }
+            #opK{
+              top:1150px;
+              left:50px;
+            }
+            #opL{
+              top:1280px;
+              left:50px;
+            }
+            #opM{
+              top:1420px;
+              left:50px;
+            }
+            #opN{
+              top:1560px;
+              left:50px;
+            }
+            #opO{
+              top:1700px;
+              left:50px;
+            }
+            #opP{
+              top:1840px;
+              left:50px;
+            }
+            #opQ{
+              top:1980px;
+              left:50px;
+            }
+          }
+
+        @media only screen and (max-width:554px) and (max-width:510px){
+            .diamond a span{
+              top:13px;
+            }
+            .opMultandDiv{
+              height:2280px;
+            }
+            #opF{
+              top: 580px;
+              left: 50px;
+            }
+            #opG{
+              top:720px;
+              left:50px;
+            }
+            #opH{
+              top:860px;
+              left:50px;
+            }
+            #opI{
+              top:1000px;
+              left:50px;
+            }
+            #opJ{
+              top:1140px;
+              left:50px;
+            }
+            #opK{
+              top:1280px;
+              left:50px;
+            }
+            #opL{
+              top:1420px;
+              left:50px;
+            }
+            #opM{
+              top:1560px;
+              left:50px;
+            }
+            #opN{
+              top:1700px;
+              left:50px;
+            }
+            #opO{
+              top:1840px;
+              left:50px;
+            }
+            #opP{
+              top:1980px;
+              left:50px;
+            }
+            #opQ{
+              top:2120px;
+              left:50px;
+            }
+          }
+
+          @media only screen and (max-width:509px) and (min-width:445px){
+              .diamond a span{
+                top:13px;
+              }
+              .opMultandDiv{
+                height:2320px;
+              }
+              #opF{
+                top: 580px;
+                left: 50px;
+              }
+              #opG{
+                top:720px;
+                left:50px;
+              }
+              #opH{
+                top:860px;
+                left:50px;
+              }
+              #opI{
+                top:1000px;
+                left:50px;
+              }
+              #opJ{
+                top:1140px;
+                left:50px;
+              }
+              #opK{
+                top:1280px;
+                left:50px;
+              }
+              #opL{
+                top:1420px;
+                left:50px;
+              }
+              #opM{
+                top:1560px;
+                left:50px;
+              }
+              #opN{
+                top:1700px;
+                left:50px;
+              }
+              #opO{
+                top:1840px;
+                left:50px;
+              }
+              #opP{
+                top:1980px;
+                left:50px;
+              }
+              #opQ{
+                top:2120px;
+                left:50px;
+              }
+            }
+
+            @media only screen and (max-width:444px) {
+                .diamond a span{
+                  top:13px;
+                }
+                .opMultandDiv{
+                  height:2420px;
+                }
+                #opF{
+                  top: 620px;
+                  left: 50px;
+                }
+                #opG{
+                  top:760px;
+                  left:50px;
+                }
+                #opH{
+                  top:900px;
+                  left:50px;
+                }
+                #opI{
+                  top:1040px;
+                  left:50px;
+                }
+                #opJ{
+                  top:1180px;
+                  left:50px;
+                }
+                #opK{
+                  top:1320px;
+                  left:50px;
+                }
+                #opL{
+                  top:1460px;
+                  left:50px;
+                }
+                #opM{
+                  top:1600px;
+                  left:50px;
+                }
+                #opN{
+                  top:1740px;
+                  left:50px;
+                }
+                #opO{
+                  top:1880px;
+                  left:50px;
+                }
+                #opP{
+                  top:2020px;
+                  left:50px;
+                }
+                #opQ{
+                  top:2160px;
+                  left:50px;
+                }
+              }
