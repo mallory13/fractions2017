@@ -439,8 +439,8 @@ router.get('/mixedNumbers', function(req, res, next) {
   res.render('mixedNumbers', {title:"OP E Making Mixed Numbers"});
 });
 
-router.get('/ComposingandDecomposingOneSevenEights', function(req, res, next) {
-  res.render('ComposingandDecomposingOneSevenEights', {title:"Composing and Decomposing 1-7/8"});
+router.get('/ComposingandDecomposingOneSevenEighths', function(req, res, next) {
+  res.render('ComposingandDecomposingOneSevenEighths', {title:"Composing and Decomposing 1-7/8"});
 });
 
 router.get('/buildingOperations', function(req, res, next) {

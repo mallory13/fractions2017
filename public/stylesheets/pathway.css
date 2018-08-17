@@ -1224,3 +1224,20 @@ border: 4px solid #FF871F;
                   left:50px;
                 }
               }
+
+              /* Mike CSS changes */
+
+              a#list2-tab-special.nav-link{
+                background-color: #000;
+                color:white;
+            }
+            
+            a#list-tab-special.nav-link{
+                background-color: #000;
+                color:white;
+            }
+
+            a#list4-tab-special.nav-link{
+                background-color: #000;
+                color:white;
+            }
