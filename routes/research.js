@@ -33,6 +33,10 @@ router.get('/fracTenLess', function(req, res, next) {
   res.render('fracTenLess', {title:"Fractions Top Ten Lessons"});
 });
 
+router.get('/fracTutorial', function(req, res, next) {
+  res.render('fracTutorial', {title:"Fractions Learning Pathways Resource Tool"});
+});
+
 router.get('/payAttention', function(req, res, next) {
   res.render('payAttention', {title:"Paying Attention to Fractions"});
 });
