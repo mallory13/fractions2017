@@ -427,7 +427,7 @@ router.get('/thePaintedDoor', function(req, res, next) {
   res.render('thePaintedDoor', {title:"OP N The Painted Door"});
 });
 
-router.get('/bananaBreadBakeoff', function(req, res, next) {
+router.get('/bananaBreadBakeOff', function(req, res, next) {
   res.render('bananaBreadBakeOff', {title:"OP G Banana Bread Bake Off"});
 });
 
