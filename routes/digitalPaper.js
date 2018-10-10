@@ -12,6 +12,10 @@ router.get('/researchBackground', function(req, res, next) {
   res.render('researchBackground', {title:"Research Background"});
 });
 
+router.get('/resources', function(req, res, next) {
+  res.render('resources', {title:"Resources"});
+});
+
 router.get('/fracRepCompOrder', function(req, res, next) {
   res.render('fracRepCompOrder', {title:"Fractions Representing Comparing Ordering"});
 });
