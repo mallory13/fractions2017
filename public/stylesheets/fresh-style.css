@@ -1092,3 +1092,22 @@ span.frac {
 }
 
 /*new fractions changes*/
+
+/*Oct 2018*/
+.icon-curr{
+    max-width:150px;
+    margin:0 auto;
+    display:block;
+    padding:10px;
+    transition:0.3s;
+}
+.icon-curr:hover{
+    padding:0;
+}
+.curr-row{
+    margin-top:120px;
+    margin-bottom:120px;
+}
+.curr-row h2{
+    line-height:1.3em;
+}

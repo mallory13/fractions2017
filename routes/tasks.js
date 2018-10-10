@@ -457,6 +457,20 @@ router.get('/curriculumConnectionsUnitA', function(req, res, next) {
   res.render('curriculumConnectionsUnitA', {title:"Unit A Curriculum Connections"});
 });
 
+/*curriculum pages*/
+router.get('/curriculumConnectionsUnit', function(req, res, next) {
+  res.render('curriculumConnectionsUnit', {title:"Curriculum Connections - Unit"});
+});
+router.get('/curriculumConnectionsComparison', function(req, res, next) {
+  res.render('curriculumConnectionsComparison', {title:"Unit A Curriculum Connections"});
+});
+router.get('/curriculumConnectionsAdditionSubtraction', function(req, res, next) {
+  res.render('curriculumConnectionsAdditionSubtraction', {title:"Unit A Curriculum Connections"});
+});
+router.get('/curriculumConnectionsMultiplicationDivision', function(req, res, next) {
+  res.render('curriculumConnectionsMultiplicationDivision', {title:"Unit A Curriculum Connections"});
+});
+
 //UNIT B
 router.get('/additionalPromptsUnitB', function(req, res, next) {
   res.render('additionalPromptsUnitB', {title:"Unit B Additional Prompts"});
