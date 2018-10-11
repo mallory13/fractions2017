@@ -47,5 +47,9 @@ router.get('/contact', function(req, res, next) {
 });
 
 
+/*rational number long document*/
+router.get('/rationalNumberTeaching', function(req, res, next) {
+  res.render('rationalNumberTeaching', { myName: "rationalNumberTeaching", title: "Rational Number Teaching" });
+});
 
 module.exports = router;

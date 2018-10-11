@@ -697,4 +697,21 @@ router.get('/curriculumConnectionsOpQ', function(req, res, next) {
   res.render('curriculumConnectionsOpQ', {title:"Op Q Curriculum Connections"});
 });
 
+// Classroom Resources manipulatives
+router.get('/grade3PlanningMap', function(req, res, next) {
+  res.render('grade3PlanningMap', {title: "Grade 3 Planning Map"})
+})
+
+router.get('/grade5-6PlanningMap', function(req, res, next) {
+  res.render('grade5-6PlanningMap', {title: "Grade 5-6 Planning Map"})
+})
+
+router.get('/grade7-8PlanningMap', function(req, res, next) {
+  res.render('grade7-8PlanningMap', {title: "Grade 7-8 Planning Map"})
+})
+
+router.get('/grade9AppliedPlanningMap', function(req, res, next) {
+  res.render('grade9AppliedPlanningMap', {title: "Grade 9 Applied Planning Map"})
+})
+
 module.exports = router;
