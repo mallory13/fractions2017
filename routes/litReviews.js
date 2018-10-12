@@ -21,5 +21,8 @@ router.get('/opMultDiv', function(req, res, next) {
   res.render('opMultDiv', {title:"Fractions Operations: Multiplication and Division"});
 });
 
+router.get('/rationalNumberTeaching', function(req, res, next) {
+  res.render('rationalNumberTeaching', { myName: "rationalNumberTeaching", title: "Rational Number Teaching" });
+});
 
 module.exports = router;
