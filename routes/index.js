@@ -18,10 +18,6 @@ router.get('/pathway', function(req, res, next) {
   res.render('pathway', {myName: "Pathway", title:"Pathway"});
 });
 
-router.get('/digitalPaper', function(req, res, next) {
-  res.render('digitalPaper', {myName: "Pathway", title:"Pathway"});
-});
-
 router.get('/contact', function(req, res, next) {
   res.render('contact', {myName: "Contact", title:"Contact"});
 });
