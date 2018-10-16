@@ -1063,7 +1063,7 @@ span.frac {
 }
 
 .margin-bottom-research {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .title-reserach {
     font-size: 18px;
@@ -1110,6 +1110,416 @@ span.frac {
 }
 .curr-row h2{
     line-height:1.3em;
+}
+
+
+/* Mike 2018 Changes */
+
+h1#title{
+    text-align: left;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width : 320px) {
+    /* Styles */
+h1#title{
+    text-align: left;
+    font-size:0.8em !important;
+    }
+}
+
+
+h3#season{
+    margin-left:80%;
+    padding-bottom:10%;
+    color:#3865AC !important;
+}
+
+p#page1, p#page2, p#page4, p#page5, p#page6, p#page7, p#page8, p#page9, p#page10{
+    text-align: center;
+    margin-top:50px;
+}
+
+p#page3{
+    text-align: right;
+    color:#3865AC;
+    margin-top:-30px;
+}
+
+img#talk{
+    float:left;
+    padding:10px;
+}
+
+#Intro h2{
+    font-weight: bolder;
+}
+
+#tableofcontents{
+    background-color:#15B59F;
+    color:white;
+    padding:40px;
+}
+
+#collablearning h2{
+    text-align: center;
+}
+
+img#W{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img#paper{
+    width:100%;
+    margin-left:16px;
+}
+
+#page3bot{
+    background-color:#F17E37;
+    color:white;
+}
+
+#page3bot p{
+    padding:20px;
+}
+
+#collablearning{
+    background-color:#3865AC;
+    color:white;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+#collablearning p{
+    padding:30px;
+}
+
+#collablearning h3{
+    padding-top:30px;
+    padding-left:30px;
+}
+
+img#paper{
+    width:100%;
+    height:100%;
+}
+
+#greenlist, #greenarea2{
+    background-color: #15B59F;
+    color:white;
+}
+
+#greenlist p{
+    padding:15px;
+}
+
+p#Wtext{
+    text-align: center;
+    padding-top:10px;
+}
+
+#effectivelearning h2{
+    font-size: 2.5em;
+    font-weight:bolder;
+}
+
+img#teachertalk, img#marker{
+    float:right;
+    clear:both;
+    border-left:5px solid white;
+    border-bottom: 5px solid white;
+}
+
+img#fraclogo{
+    float:right;
+    width:100%;
+    height:100%;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width : 1080px) {
+    /* Styles */
+img#fraclogo{
+    float:right;
+    width:50%;
+    height:50%;
+    }
+}
+
+#page4bot h2, #page4bot p{
+    margin-left:100px;
+}
+
+#page4bot h2{
+    font-size: 2.8em;
+}
+
+#learnpathtext{
+    margin-top:75px;
+}
+
+img#teachmeet{
+    width:100%;
+    height:100%;
+}
+
+#schoolboard h2{
+    text-align: center;
+}
+
+img#datachart{
+    height:100%;
+    width:100%;
+}
+
+#page5blurb{
+    padding:20px;
+}
+
+p#teacherblurb{
+    background-color:#F17E37;
+    color:white;
+    width:40%;
+    padding:20px;
+    /* margin-left:60%; */
+    position:relative;
+    top:-150px;
+    left:60%;
+  z-index: 1;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width : 480px) {
+    /* Styles */
+p#teacherblurb{
+    background-color:#F17E37;
+    color:white;
+    width:100%;
+    padding:20px;
+    /* margin-left:60%; */
+    position:relative;
+    top:10px;
+    left:1px;
+  z-index: 1;
+  font-size: 9px;
+    }
+}
+
+p#pentext{
+    background-color:#F17E37;
+    color:white;
+    margin-top:50px;
+    padding-left:25px;
+}
+
+img#penimg{
+    width:100%;
+    height:100%;
+}
+
+#page6blurb.row{
+    background-color:#F17E37;
+}
+
+#grouplearning, #mathleadership{
+    padding:25px;
+}
+
+h4#modeltext1, h6#modeltext1{
+    text-align: center;
+}
+
+img#modelboard1, img#modelboard2{
+    width:100%;
+    height:100%;
+}
+
+h4#modeltext2, h6#modeltext2{
+    text-align: center;
+}
+
+img#teachipad{
+    width:100%;
+    height:100%;
+}
+
+p#ipadtext{
+    margin-top:50px;
+    margin-right:25px;
+    color:white;
+}
+
+#page7blurb.row{
+    background-color: #F17E37;
+    margin-top:50px;
+}
+
+img#markline{
+    width:100%;
+    height:100%;
+}
+
+#teachinquiry h2{
+    text-align: center;
+}
+
+p#marktext{
+    margin-top:50px;
+    margin-left:25px;
+}
+
+#page8blurb.row{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+#markertext{
+    padding:25px;
+}
+
+img#marklinesheet{
+    width:80%;
+    height:80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+}
+
+h4#markertext2{
+    background-color: #3865AC;
+    color: #F17E37;
+    text-align: center;
+    padding:15px;
+}
+
+img#kidline{
+    width:100%;
+    height:100%;
+}
+
+#markertextstyle p{
+    padding:25px;
+}
+
+#mathbooks{
+    width:80%;
+}
+
+img#mathstrat, img#teachmath, img#mathsuccess{
+    width:100%;
+    height:100%;
+    padding-top:50px;
+    
+}
+
+#mathstrattitle, #teachmathtitle, #mathsuccesstitle{
+    text-align: center;
+}
+
+#mathstrattext, #teachmathtext, #mathsuccesstext{
+    text-align: center;
+    padding-bottom:50px;
+    font-size: 0.8em;
+}
+
+#ontariomath{
+    padding:25px;
+}
+
+#page9blueblurb{
+    background-color:#3865AC;
+    color:white;
+    padding:25px;
+}
+
+#page9blurb{
+    padding-top:15px;
+}
+
+img#attentionmathbook{
+    width:80%;
+    height:80%;
+    margin-left:50px;
+}
+
+#attentionmathbullets{
+    padding:10px;
+    margin-top:50px;
+    font-size: 1.2em;
+}
+
+h4#attentionmathedugains{
+    padding-top:20px;
+    color:orange;
+    font-size:1.4em;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width : 480px) {
+    /* Styles */
+    h4#attentionmathedugains{
+        padding-top:20px;
+        color:orange;
+        font-size:0.9em;
+    }
+}
+
+#ontariomath p{
+    padding-top:20px;
+}
+
+#ontariomath h2, #teachinquiry h2, #schoolboard h2, #effectivelearning h2, #personallearn h2, #whyfrac h2, #Intro h2{
+    color: #15B59F !important; /* overwriting previous CSS */
+    font-weight: bold !important;
+}
+
+#mathleadership h3, #grouplearning h3,h3#collabtextblue{
+    font-size: 1.4em !important;
+    color:#3865AC !important;
+}
+
+#learnpathtext h2{
+    color:#F17E37 !important; 
+    font-weight: bold !important;
+}
+
+#learnpathtext p{
+    font-size: 0.9em !important;
+}
+
+p#edugainsbot{
+    color:#3865AC !important;
+}
+
+#collablearning h3{
+    color:orange !important;
+    font-size: 1.4em !important;
+}
+
+#collablearning h2{
+    color:#ffffff !important;
+    font-size: 2.9em !important;
+    font-weight: bold !important;
+}
+
+#tableofcontents h2{
+    color:#ffffff !important;
+    font-size: 2.4em !important;
+    font-weight: bold !important;
+}
+
+h1#title{
+    color:orange !important;
+    font-weight: bolder !important;
+    font-size: 3.7em !important;
+}
+
+p#authors{
+    padding-bottom:100px;
 }
 
 /*rational document styling*/

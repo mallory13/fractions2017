@@ -6,24 +6,27 @@
    @Note: Complete revamp of styling and entire header, scripts, and all elements included herein
    -->
 <html lang="en-ca">
-   <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <!--css section-->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-      <!-- <link rel='stylesheet' href='/stylesheets/new/bootstrap.min.css' /> -->
-      <link rel='stylesheet' href='/stylesheets/new/bootstrap-theme.min.css' />
-      <link rel='stylesheet' href='/stylesheets/font-awesome.min.css' />
-      <!--<link rel='stylesheet' href='/stylesheets/style.css' />
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--css section-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- <link rel='stylesheet' href='/stylesheets/new/bootstrap.min.css' /> -->
+  <link rel='stylesheet' href='/stylesheets/new/bootstrap-theme.min.css' />
+  <link rel='stylesheet' href='/stylesheets/font-awesome.min.css' />
+  <!--<link rel='stylesheet' href='/stylesheets/style.css' />
       <link rel='stylesheet' href='/stylesheets/footer.css' />-->
-      <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700" rel="stylesheet">
-      <link rel='stylesheet' href='/stylesheets/fresh-style.css' />
-      <link rel='stylesheet' href='/stylesheets/pathway.css' />
-      
-      <title><%= title %> | Fractions Teaching</title>
-   </head>
-   <body>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700" rel="stylesheet">
+  <link rel='stylesheet' href='/stylesheets/fresh-style.css' />
+  <link rel='stylesheet' href='/stylesheets/pathway.css' />
+
+  <title>
+    <%= title %> | Fractions Teaching</title>
+</head>
+
+<body>
 
   <nav class="navbar navbar-default">
 
@@ -36,7 +39,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#"><a href="/"><img alt="Fractions Math logo " src="/images/logo.png" class="brand-logo"/></a></a>
+        <a class="navbar-brand" href="#"><a href="/"><img alt="Fractions Math logo " src="/images/logo.png" class="brand-logo" /></a></a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -51,7 +54,7 @@
 
         <ul class="nav navbar-nav navbar-right">
           <button type="button" class="btn btn-default btn-sm search-button" data-toggle="modal" data-target="#myModal">
-            <i class="fa fa-search" aria-hidden="true"></i> Search 
+            <i class="fa fa-search" aria-hidden="true"></i> Search
           </button>
         </ul>
 
@@ -59,7 +62,7 @@
     </div><!-- /.container-fluid -->
   </nav>
 
- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
   <!-- Modal -->
   <div id="myModal" class="modal fade" role="dialog">
@@ -73,39 +76,41 @@
         </div>
         <div class="modal-body">
           <span style="font-size:12px;font-style:italic;color:grey;">Search results will only be displayed for websites properly indexed by Google.</span>
-            <!--right form - search bar-->
-            <script>
-              (function() {
-                var cx = '003494330858312639539:cw0yig4pajk';
-                var gcse = document.createElement('script');
-                gcse.type = 'text/javascript';
-                gcse.async = true;
-                gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(gcse, s);
-              })();
-            </script>
-            <gcse:search></gcse:search>
+          <!--right form - search bar-->
+          <script>
+            (function() {
+              var cx = '003494330858312639539:cw0yig4pajk';
+              var gcse = document.createElement('script');
+              gcse.type = 'text/javascript';
+              gcse.async = true;
+              gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(gcse, s);
+            })();
+          </script>
+          <gcse:search></gcse:search>
         </div>
       </div>
     </div>
   </div>
 
-<script>
-  // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+  <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {
+      scrollFunction()
+    };
 
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         document.getElementById("myBtn").style.display = "block";
-    } else {
+      } else {
         document.getElementById("myBtn").style.display = "none";
+      }
     }
-}
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0; // For Chrome, Safari and Opera
-    document.documentElement.scrollTop = 0; // For IE and Firefox
-} 
-</script>
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Chrome, Safari and Opera
+      document.documentElement.scrollTop = 0; // For IE and Firefox
+    }
+  </script>

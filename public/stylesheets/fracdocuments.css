@@ -1,0 +1,37 @@
+/*Oct 2018 Mike Changes*/
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3;
+}
+
+h3#season{
+    margin-left:85%;
+}
+
+#title h1{
+    font-size: 4.0em;
+}
+
+#tableofcontents{
+    color:white;
+    background-color:#15B59F;
+    padding:0px;
+}
+
+p#page1, p#page2{
+    text-align: center;
+}
+
+section#whyfrac, section#collablearning{
+    margin-top:100px;
+}
+
+#Intro h2, #whyfrac h2, #personallearn h2{
+    color:#15B59F;
+}
+
+#title h1, #collablearning h3{
+    color:orange;
+}
+

@@ -10,55 +10,81 @@ var router = express.Router();
 // GET support docs pages
 
 router.get('/actFracUnd', function(req, res, next) {
-  res.render('actFracUnd', {title:"Actions to Develop Fractions Understanding"});
+  res.render('actFracUnd', {
+    title: "Actions to Develop Fractions Understanding"
+  });
 });
 
 router.get('/buildAddSub', function(req, res, next) {
-  res.render('buildAddSub', {title:"Building to Addition and Subtraction of Fractions"});
+  res.render('buildAddSub', {
+    title: "Building to Addition and Subtraction of Fractions"
+  });
 });
 
 router.get('/buildEquiv', function(req, res, next) {
-  res.render('buildEquiv', {title:"Building Understanding of Equivalence"});
+  res.render('buildEquiv', {
+    title: "Building Understanding of Equivalence"
+  });
 });
 
 router.get('/buildUnitFrac', function(req, res, next) {
-  res.render('buildUnitFrac', {title:"Building Understanding of Unit Fractions"});
+  res.render('buildUnitFrac', {
+    title: "Building Understanding of Unit Fractions"
+  });
 });
 
 router.get('/devFracNumSense', function(req, res, next) {
-  res.render('devFracNumSense', {title:"Developing Fraction Number Sense"});
+  res.render('devFracNumSense', {
+    title: "Developing Fraction Number Sense"
+  });
 });
 
 router.get('/devPartItDisembed', function(req, res, next) {
-  res.render('devPartItDisembed', {title:"Developing Proficiency with Partitioning, Iterating and Disembedding"});
+  res.render('devPartItDisembed', {
+    title: "Developing Proficiency with Partitioning, Iterating and Disembedding"
+  });
 });
 
 router.get('/fracAcrossStrands', function(req, res, next) {
-  res.render('fracAcrossStrands', {title:"Fractions Across Strands and Grades: Sample Tasks"});
+  res.render('fracAcrossStrands', {
+    title: "Fractions Across Strands and Grades: Sample Tasks"
+  });
 });
 
 router.get('/purpRep', function(req, res, next) {
-  res.render('purpRep', {title:"Purposeful Representations"});
+  res.render('purpRep', {
+    title: "Purposeful Representations"
+  });
 });
 
 router.get('/respThink', function(req, res, next) {
-  res.render('respThink', {title:"Being Responsive to Student Thinking"});
+  res.render('respThink', {
+    title: "Being Responsive to Student Thinking"
+  });
 });
 
 router.get('/supportDocs', function(req, res, next) {
-  res.render('supportDocs', {title:"Support Documents"});
+  res.render('supportDocs', {
+    title: "Support Documents"
+  });
 });
 
 router.get('/tasksThinking', function(req, res, next) {
-  res.render('tasksThinking', {title:"Intentional Tasks to Develop Fractions Thinking"});
+  res.render('tasksThinking', {
+    title: "Intentional Tasks to Develop Fractions Thinking"
+  });
 });
 
 router.get('/waysWeUseFrac', function(req, res, next) {
-  res.render('waysWeUseFrac', {title:"Ways We Use Fractions"});
+  res.render('waysWeUseFrac', {
+    title: "Ways We Use Fractions"
+  });
 });
 
 router.get('/RecNumLinesCircles', function(req, res, next) {
-  res.render('RecNumLinesCircles', {title:"Rectangles, Number Lines and Circles, Oh My!"});
+  res.render('RecNumLinesCircles', {
+    title: "Rectangles, Number Lines and Circles, Oh My!"
+  });
 });
 
 

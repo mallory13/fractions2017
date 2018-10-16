@@ -1,18 +1,18 @@
 <%- include partials/header.ejs%>
 <!-- Breadcrumbs -->
 <ol class="breadcrumb ">
-    <li class="breadcrumb-item"><a href="/">Home</a></li>
-    <li class="breadcrumb-item active">Contact</li>
+  <li class="breadcrumb-item"><a href="/">Home</a></li>
+  <li class="breadcrumb-item active">Contact</li>
 </ol>
 
 <main class="container">
 
   <section class="row padding-bottom">
     <div class="col-md-12 col-sm-12">
-        <h1 id="contact">Contact Us</h1>
+      <h1 id="contact">Contact Us</h1>
     </div>
   </section>
-  
+
   <section class="row">
     <div data-ng-controller="ContactFormController as cf">
       <!-- <form name="contactForm" data-ng-submit="cf.sendMail()" action="" method="post" enctype="multipart/form-data" > -->
@@ -21,7 +21,7 @@
           <div class="input-group">
             <div class="row">
               <div class="col-md-4">
-                <label for="firstName" >First Name:</label>
+                <label for="firstName">First Name:</label>
               </div>
               <div class="col-md-8">
                 <input type="text" data-ng-model="cf.firstName" class="form-control" id="firstName" name="first-name" placeholder="Enter your first name" required />
@@ -40,7 +40,7 @@
           </div> <!-- End input group Last Name -->
           <div class="input-group">
             <div class="row">
-              <div class="col-md-4">  
+              <div class="col-md-4">
                 <label for="email">Email:</label>
               </div>
               <div class="col-md-8">
@@ -172,4 +172,4 @@
     </div>
   </section>
   <!-- <script type="text/javascript" src="/javascripts/contact.js"></script> -->
-<%- include partials/footer.ejs%>
+  <%- include partials/footer.ejs%>

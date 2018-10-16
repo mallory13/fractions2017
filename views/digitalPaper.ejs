@@ -1,9 +1,9 @@
 <%- include partials/header.ejs%>
 <!-- Breadcrumbs -->
 <ol class="breadcrumb ">
-    <li class="breadcrumb-item"><a href="/">Home</a></li>
-    <li class="breadcrumb-item"><a href="/research">All Research</a></li>
-    <li class="breadcrumb-item active">Fractions: Representing, Ordering, Comparing</li>
+  <li class="breadcrumb-item"><a href="/">Home</a></li>
+  <li class="breadcrumb-item"><a href="/research">All Research</a></li>
+  <li class="breadcrumb-item active">Fractions: Representing, Ordering, Comparing</li>
 </ol>
 
 <main class="container">
@@ -16,8 +16,8 @@
 
   <section class="row">
     <!-- <a href="/digitalPaper/researchBackground"> -->
-      <div class="col-sm-9 col-md-9 col-sm-offset-3 col-md-offset-3" style="padding-top: 50px; padding-bottom:50px; padding-left:50px">
-        <!-- <div class="thumbnail thumbnail-special">
+    <div class="col-sm-9 col-md-9 col-sm-offset-3 col-md-offset-3" style="padding-top: 50px; padding-bottom:50px; padding-left:50px">
+      <!-- <div class="thumbnail thumbnail-special">
           <figure>
             <img src="/images/digitalPaper.png" alt="Research Background" class="img-rounded img-responsive margin-auto">
           </figure>
@@ -26,31 +26,35 @@
             <p></p>
           </div>
         </div> -->
-        <figure>
-          <img src="/images/fractMainDiagram.png" id="map-image" style="width: 490px; max-width: 100%; height: auto;" alt="Digital Map" usemap="#map" class="margin-auto"/>
-          <map name="map">
+      <figure>
+        <img src="/images/fractMainDiagram.png" id="map-image" style="width: 490px; max-width: 100%; height: auto;" alt="Digital Map" usemap="#map" class="margin-auto" />
+        <map name="map">
           <!-- Student Learning -->
-          <area shape="poly" coords="109, 125, 194, 132, 192, 252, 316, 250, 315, 390, 113, 388" href="digitalPaper/studentLearn" alt="Student Learning"/>
+          <area shape="poly" coords="109, 125, 194, 132, 192, 252, 316, 250, 315, 390, 113, 388" href="digitalPaper/studentLearn" alt="Student Learning" />
           <!-- Instructional Decisions -->
-          <area shape="poly" coords="315, 248, 452, 249, 451, 49, 186, 50, 191, 129, 315, 125" href="digitalPaper/instrDec" alt="Instructional Decisions"/>
+          <area shape="poly" coords="315, 248, 452, 249, 451, 49, 186, 50, 191, 129, 315, 125" href="digitalPaper/instrDec" alt="Instructional Decisions" />
           <!-- Fractions Representing Comparing Ordering -->
-          <area shape="poly" coords="191, 128, 192, 250, 314, 250, 313, 126" href="digitalPaper/fracRepCompOrder" alt="Fractions Representing Comparing Ordering"/>
+          <area shape="poly" coords="191, 128, 192, 250, 314, 250, 313, 126" href="digitalPaper/fracRepCompOrder" alt="Fractions Representing Comparing Ordering" />
           <!-- Teacher Professional Learning -->
-          <area shape="poly" coords="9, 202, 7, 5, 265, 6, 266, 51, 189, 50, 190, 129, 111, 128, 112, 204" href="digitalPaper/teachProLearn" alt=""/>
-          </map>
-          <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-          <script src="imageMapResizer.min.js"></script>
-          <script>$(document).ready(function(e){$("map").imageMapResize();});</script>
-          <p style="margin-left: 20px;">
-                <a href="/digitalPaper/resources">Resources</a>
-                <ul>
-                      <li style="margin-bottom: 0px;">Research and Supports</li>
-                      <li style="margin-bottom: 0px;">Lessons</li>
-                      <li style="margin-bottom: 0px;">Transcripts</li>
-                </ul>
-          </p>
-        </figure>
-      </div>
+          <area shape="poly" coords="9, 202, 7, 5, 265, 6, 266, 51, 189, 50, 190, 129, 111, 128, 112, 204" href="digitalPaper/teachProLearn" alt="" />
+        </map>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="imageMapResizer.min.js"></script>
+        <script>
+          $(document).ready(function(e) {
+            $("map").imageMapResize();
+          });
+        </script>
+        <p style="margin-left: 20px;">
+          <a href="/digitalPaper/resources">Resources</a>
+          <ul>
+            <li style="margin-bottom: 0px;">Research and Supports</li>
+            <li style="margin-bottom: 0px;">Lessons</li>
+            <li style="margin-bottom: 0px;">Transcripts</li>
+          </ul>
+        </p>
+      </figure>
+    </div>
     <!-- </a> -->
   </section>
 
@@ -108,4 +112,4 @@
       </div>
     </a>
   </section> -->
-<%- include partials/footer.ejs%>
+  <%- include partials/footer.ejs%>
