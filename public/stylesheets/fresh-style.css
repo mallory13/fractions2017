@@ -1530,6 +1530,7 @@ p#authors{
     list-style-type:lower-roman;
 }
 
-/*temporary text*/
-.vertical-text{
+/*making nice transitions for pathway*/
+.diamond{
+    transition:0.3s;
 }

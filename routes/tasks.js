@@ -9,6 +9,7 @@ var router = express.Router();
 
 // GET tasks digital paper pages
 
+/*
 router.get('/compOrder', function(req, res, next) {
   res.render('compOrder', {
     title: "Comparing and Ordering Fractions (Gr 6)"
@@ -63,7 +64,7 @@ router.get('/setRep', function(req, res, next) {
     title: "Set Representations (Jr)"
   });
 });
-
+*/
 
 
 // GET tasks pathway pages

@@ -58,6 +58,13 @@ router.get('/compE', function(req, res, next) {
   });
 });
 
+//FLP intro video
+router.get('/FLPIntroductionVideo', function(req, res, next) {
+  res.render('FLPIntroductionVideo', {
+    myName:"FLP Introduction Video",
+    title: "FLP Introdcution Video"
+  });
+});
 
 // get op pages
 router.get('/op', function(req, res, next) {
