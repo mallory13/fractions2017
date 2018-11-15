@@ -66,9 +66,4 @@ router.get('/contact', function(req, res, next) {
   });
 });
 
-// October 2018 Mike Changes:
-router.get('/FractionalRationale', function(req, res, next) {
-  res.render('fractionalrationale', {myName: "FractionalRationale", title:"Fractional Rationale"});
-});
-
 module.exports = router;
