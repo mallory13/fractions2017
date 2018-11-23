@@ -776,6 +776,13 @@ table th {
 .key-title .key-bl {
     background: #0078a4;
 }
+.mrgnbtm0 {
+    margin-bottom:0px !important;
+}
+.fracList li{
+    margin-bottom:0px !important;
+    margin-left:25px;
+}
 .key-title .key-pink {
     background: #f31ba5;
     margin-top: 30px;
@@ -1016,6 +1023,10 @@ span.frac {
     padding-top: 25px;
 }
 
+.padding3040 {
+    padding:30px 40px;
+}
+
 /* Key Questions Title indentation */
 .title-indentation {
     margin-left:55px;
@@ -1065,8 +1076,9 @@ span.frac {
 .margin-bottom-research {
     margin-bottom: 20px;
 }
-.title-reserach {
-    font-size: 18px;
+.title-research {
+    font-size: 16px;
+    margin-bottom:5px !important;
 }
 .container-digital-paper {
     width: 90%;
@@ -1112,6 +1124,15 @@ span.frac {
     line-height:1.3em;
 }
 
+.fracRationalePDF {
+    background: #fff;
+    box-shadow: 0px 6px 15px 0px rgba(50, 50, 50, 0.7);
+    webkit-box-shadow: 0px 6px 15px 0px rgba(50, 50, 50, 0.7);
+    -moz-box-shadow: 0px 6px 15px 0px rgba(50, 50, 50, 0.7);
+    position: relative;
+    margin-bottom: 25px;
+}
+
 
 /* Mike 2018 Changes */
 
@@ -1137,7 +1158,8 @@ h3#season{
 
 p#page1, p#page2, p#page4, p#page5, p#page6, p#page7, p#page8, p#page9, p#page10{
     text-align: center;
-    margin-top:50px;
+    font-weight:bold;
+    /*margin-top:50px;*/
 }
 
 p#page3{
@@ -1152,14 +1174,19 @@ img#talk{
 }
 
 #Intro h2{
-    font-weight: bolder;
+    font-weight: 900 !important;
+    font-family:arial black;
 }
 
 #tableofcontents{
     background-color:#15B59F;
     color:white;
-    padding:40px;
+    padding-left:55px;
+    padding-right:55px;
+    padding-top:30px;
+    padding-bottom:10px;
 }
+
 
 #collablearning h2{
     text-align: center;
@@ -1182,6 +1209,11 @@ img#paper{
     color:white;
 }
 
+.padding0{
+  padding-left:0px !important;
+  padding-right:0px !important;
+}
+
 #page3bot p{
     padding:20px;
 }
@@ -1189,17 +1221,14 @@ img#paper{
 #collablearning{
     background-color:#3865AC;
     color:white;
-    padding-left:15px;
-    padding-right:15px;
-}
-
-#collablearning p{
-    padding:30px;
+    padding-left:55px;
+    padding-right:55px;
+    padding-bottom:20px;
 }
 
 #collablearning h3{
     padding-top:30px;
-    padding-left:30px;
+    margin-bottom:0px;
 }
 
 img#paper{
@@ -1211,10 +1240,21 @@ img#paper{
     background-color: #15B59F;
     color:white;
 }
-
-#greenlist p{
-    padding:15px;
+.greenbox{
+  padding-top:30px;
+  padding-bottom:5px;
 }
+.greenbox li{
+  padding-top:10px;
+}
+@media screen only (min-width:470px){
+  .negativemargin {
+    margin-top:-150px;
+  }
+}
+/*#greenlist p{
+    padding:15px;
+}*/
 
 p#Wtext{
     text-align: center;
@@ -1249,10 +1289,6 @@ img#fraclogo{
     }
 }
 
-#page4bot h2, #page4bot p{
-    margin-left:100px;
-}
-
 #page4bot h2{
     font-size: 2.8em;
 }
@@ -1276,7 +1312,7 @@ img#datachart{
 }
 
 #page5blurb{
-    padding:20px;
+    /*padding:20px;*/
 }
 
 p#teacherblurb{
@@ -1312,7 +1348,6 @@ p#pentext{
     background-color:#F17E37;
     color:white;
     margin-top:50px;
-    padding-left:25px;
 }
 
 img#penimg{
@@ -1325,7 +1360,7 @@ img#penimg{
 }
 
 #grouplearning, #mathleadership{
-    padding:25px;
+    /*padding:25px;*/
 }
 
 h4#modeltext1, h6#modeltext1{
@@ -1347,7 +1382,7 @@ img#teachipad{
 }
 
 p#ipadtext{
-    margin-top:50px;
+    margin-top:80px;
     margin-right:25px;
     color:white;
 }
@@ -1368,21 +1403,20 @@ img#markline{
 
 p#marktext{
     margin-top:50px;
-    margin-left:25px;
+    /*margin-left:25px;*/
 }
 
 #page8blurb.row{
     padding-top:20px;
-    padding-bottom:20px;
 }
 
 #markertext{
-    padding:25px;
+    /*padding:25px;*/
 }
 
 img#marklinesheet{
-    width:80%;
-    height:80%;
+    width:70%;
+    height:70%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -1393,7 +1427,8 @@ h4#markertext2{
     background-color: #3865AC;
     color: #F17E37;
     text-align: center;
-    padding:15px;
+    padding:10px;
+    margin-bottom:0px !important;
 }
 
 img#kidline{
@@ -1401,8 +1436,12 @@ img#kidline{
     height:100%;
 }
 
-#markertextstyle p{
-    padding:25px;
+#markertextstyle ul {
+  padding-top:20px;
+}
+
+#markertextstyle li{
+    padding-bottom:15px;
 }
 
 #mathbooks{
@@ -1413,7 +1452,7 @@ img#mathstrat, img#teachmath, img#mathsuccess{
     width:100%;
     height:100%;
     padding-top:50px;
-    
+
 }
 
 #mathstrattitle, #teachmathtitle, #mathsuccesstitle{
@@ -1427,13 +1466,17 @@ img#mathstrat, img#teachmath, img#mathsuccess{
 }
 
 #ontariomath{
-    padding:25px;
+    /*padding:25px;*/
 }
 
 #page9blueblurb{
     background-color:#3865AC;
     color:white;
-    padding:25px;
+    /*padding:25px;*/
+}
+
+h3#reference {
+  font-family:arial black;
 }
 
 #page9blurb{
@@ -1474,7 +1517,8 @@ h4#attentionmathedugains{
 
 #ontariomath h2, #teachinquiry h2, #schoolboard h2, #effectivelearning h2, #personallearn h2, #whyfrac h2, #Intro h2{
     color: #15B59F !important; /* overwriting previous CSS */
-    font-weight: bold !important;
+    font-family:arial black;
+    font-size:2.4em;
 }
 
 #mathleadership h3, #grouplearning h3,h3#collabtextblue{
@@ -1483,7 +1527,7 @@ h4#attentionmathedugains{
 }
 
 #learnpathtext h2{
-    color:#F17E37 !important; 
+    color:#F17E37 !important;
     font-weight: bold !important;
 }
 
@@ -1492,12 +1536,13 @@ h4#attentionmathedugains{
 }
 
 p#edugainsbot{
-    color:#3865AC !important;
+    margin-top:50px;
+    font-weight:bold;
 }
 
 #collablearning h3{
     color:orange !important;
-    font-size: 1.4em !important;
+    font-size: 1.6em !important;
 }
 
 #collablearning h2{
@@ -1509,13 +1554,15 @@ p#edugainsbot{
 #tableofcontents h2{
     color:#ffffff !important;
     font-size: 2.4em !important;
-    font-weight: bold !important;
+    font-family:arial black;
 }
 
 h1#title{
     color:orange !important;
     font-weight: bolder !important;
     font-size: 3.7em !important;
+    margin:0px;
+    font-family:arial black;
 }
 
 p#authors{

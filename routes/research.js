@@ -46,6 +46,13 @@ router.get('/fracTenLess', function(req, res, next) {
   });
 });
 
+router.get('/FractionalRationale', function(req, res, next) {
+  res.render('FractionalRationale', {
+    title: "Planning For Effective Learning In Mathematics"
+  });
+});
+
+
 router.get('/fracTutorial', function(req, res, next) {
   res.render('fracTutorial', {
     title: "Fractions Learning Pathways Resource Tool"
@@ -65,9 +72,9 @@ router.get('/payAttentionOverview', function(req, res, next) {
 });
 
 // October 2018 Mike Changes:
-router.get('/FractionalRationale', function(req, res, next) {
-  res.render('fractionalrationale', {myName: "FractionalRationale", title:"Fractional Rationale"});
-});
+//router.get('/FractionalRationale', function(req, res, next) {
+//res.render('fractionalrationale', {myName: "FractionalRationale", title:"Fractional Rationale"});
+//});
 
 
 module.exports = router;
