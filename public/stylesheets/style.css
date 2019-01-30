@@ -1031,3 +1031,6 @@ table td {
   word-wrap:break-word;
 }
 */
+.learningPathWays .gen-pdf {
+	display: none;
+}

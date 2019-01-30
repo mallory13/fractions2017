@@ -233,7 +233,6 @@ footer p{
 .thumbnail {
     background-color: #eee;
     text-align: center;
-    min-height: 320px;
     border: 1px solid #777;
 }
 .thumbnail a:hover{
@@ -297,7 +296,6 @@ footer p{
 .thumbnail {
     background-color: #eee;
     text-align: center;
-    min-height: 150px;
     border: 1px solid #777;
 }
 .thumbnail-no-tasks {
@@ -897,6 +895,7 @@ span.frac {
     display: block;
     font: inherit;
     padding: 0 0.3em;
+	font-size: 0.9em; 
   }
   span.frac > sup {border-bottom: 0.08em solid; top: -.1em;}
   span.frac > sub {bottom: 0.15em;}
@@ -1580,4 +1579,19 @@ p#authors{
 /*making nice transitions for pathway*/
 .diamond{
     transition:0.3s;
+}
+
+.learningPathWays .gen-pdf {
+	display: none;
+}
+
+/*fixing box links*/
+.tab-content a>.thumbnail p{
+    color:black !important;
+}
+.thumbnail{
+    transition:0.3s;
+}
+.thumbnail:hover{
+    opacity:0.8;
 }
